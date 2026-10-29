@@ -1,0 +1,7 @@
+model_seed,grammar,group_support,audit_users,test_gap,bootstrap_lower,bootstrap_upper,bounded_lower,bounded_upper,scope
+42,selected,367,4225,0.0072162504852908,-0.006196585917629,0.0189868735418847,-0.08509919575788298,0.09953169672846458,fixed-rule exploratory; no adaptive-selection or multiplicity guarantee
+42,unfiltered,25,4225,0.0233757160245619,-0.0044664902828369,0.0380584620534488,-0.2936189412395403,0.3403703732886641,fixed-rule exploratory; no adaptive-selection or multiplicity guarantee
+100,selected,367,4225,0.0160083547306507,0.00638408014223,0.0249624227698324,-0.07630709151252309,0.10832380097382448,fixed-rule exploratory; no adaptive-selection or multiplicity guarantee
+100,unfiltered,22,4225,-0.0669607152987504,-0.1855261647989789,0.0211965172582916,-0.4036117365096699,0.2696903059121691,fixed-rule exploratory; no adaptive-selection or multiplicity guarantee
+2026,selected,52,4225,-0.0594412618435926,-0.1420972282258626,0.006545231428199,-0.28481453961967396,0.16593201593248874,fixed-rule exploratory; no adaptive-selection or multiplicity guarantee
+2026,unfiltered,22,4225,-0.0598302915511901,-0.1716081521030838,0.0241800340532202,-0.39648131276210963,0.27682072965972937,fixed-rule exploratory; no adaptive-selection or multiplicity guarantee

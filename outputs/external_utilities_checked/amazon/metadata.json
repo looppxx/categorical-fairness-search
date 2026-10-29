@@ -1,0 +1,40 @@
+{
+  "dataset": "amazon",
+  "rows": 8793900,
+  "users": 175878,
+  "features": [
+    "user_id",
+    "item_id",
+    "price",
+    "cate"
+  ],
+  "audit_attributes": [
+    "his_level",
+    "mean_price_level",
+    "max_price_level"
+  ],
+  "source_csv": "C:\\Users\\DELL\\Documents\\repo\\FairRec\\data\\amazon\\processed_data\\test_data.csv",
+  "source_sha256": "20db100049090406a0875503b731fa5c88aaf2ed07d38aa9dd86e3a16106d086",
+  "checkpoint_sha256": {
+    "C:\\Users\\DELL\\Documents\\repo\\FairRec\\model\\deepfm-amazon\\deepfm-amazon.ckpt.data-00000-of-00001": "e69ebbe951e40be92ff96b24ee9a739e072cdeb8651a3d85fcfcc40c9b39fd9c",
+    "C:\\Users\\DELL\\Documents\\repo\\FairRec\\model\\deepfm-amazon\\deepfm-amazon.ckpt.index": "b30ac7ce850c29f39bb1c80832ff878a22ab1fc0af1fe428245229c32e44ad43"
+  },
+  "native_source_sha256": "5e78dfa5a2c024a31dcd8ddb4be0f123b952b1c690c3d245ca753296fb602371",
+  "exporter_sha256": "e97ded35156a9a49e19e3eb213c92a74b4c092a9e9c00c8e2d63a458ed157e5e",
+  "utility_csv_sha256": "9346d799c0944b63f6ccfc361e1c793d4a173a555147404382f5d51bc72641e6",
+  "python": "3.8.0 (tags/v3.8.0:fa919fd, Oct 14 2019, 19:37:50) [MSC v.1916 64 bit (AMD64)]",
+  "tensorflow": "2.3.0",
+  "model": "supplied frozen DeepFM; no retraining; original training seeds/settings not verified",
+  "restoration": "assert_existing_objects_matched passed for all model variables; unused saved optimizer slots allowed",
+  "embedding_dim": 4,
+  "prediction_batch_size": 8192,
+  "threads": [
+    4,
+    1
+  ],
+  "candidate_count_min": 50,
+  "candidate_count_max": 50,
+  "utility": "NDCG@10; one positive; supplied sampled candidates; score descending then item id ascending",
+  "duplicate_policy": "candidate rows retained; negative tie with identical item id ranks before positive",
+  "disclosure": "Post hoc external-dataset audit. Original train/test disjointness cannot be independently reconstructed."
+}

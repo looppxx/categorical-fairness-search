@@ -1,0 +1,101 @@
+{
+  "epochs_completed": 18,
+  "best_epoch": 13,
+  "best_validation_score": 0.038743763808392215,
+  "early_stopping_triggered": true,
+  "stopping": "validation_patience",
+  "criterion": "development-user held-out utility",
+  "history": [
+    {
+      "epoch": 1,
+      "mean_bce": 0.3248532945294924,
+      "validation_score": 0.026162002132577734
+    },
+    {
+      "epoch": 2,
+      "mean_bce": 0.2656994986742204,
+      "validation_score": 0.03171625766096267
+    },
+    {
+      "epoch": 3,
+      "mean_bce": 0.24897987263256888,
+      "validation_score": 0.03271656367157211
+    },
+    {
+      "epoch": 4,
+      "mean_bce": 0.23960209292586104,
+      "validation_score": 0.036393959925654876
+    },
+    {
+      "epoch": 5,
+      "mean_bce": 0.2325756597676101,
+      "validation_score": 0.036830412250849195
+    },
+    {
+      "epoch": 6,
+      "mean_bce": 0.22727976627092397,
+      "validation_score": 0.03719464405449328
+    },
+    {
+      "epoch": 7,
+      "mean_bce": 0.22323086273097523,
+      "validation_score": 0.03754065392447005
+    },
+    {
+      "epoch": 8,
+      "mean_bce": 0.22017245710198552,
+      "validation_score": 0.03576859033248971
+    },
+    {
+      "epoch": 9,
+      "mean_bce": 0.21744973975788098,
+      "validation_score": 0.036209073335165605
+    },
+    {
+      "epoch": 10,
+      "mean_bce": 0.21538282694019234,
+      "validation_score": 0.03778813768162105
+    },
+    {
+      "epoch": 11,
+      "mean_bce": 0.21344591715062342,
+      "validation_score": 0.03675584546527679
+    },
+    {
+      "epoch": 12,
+      "mean_bce": 0.21170868934332593,
+      "validation_score": 0.03787361071894686
+    },
+    {
+      "epoch": 13,
+      "mean_bce": 0.20975588963798772,
+      "validation_score": 0.038743763808392215
+    },
+    {
+      "epoch": 14,
+      "mean_bce": 0.20848862488462427,
+      "validation_score": 0.036219725970577585
+    },
+    {
+      "epoch": 15,
+      "mean_bce": 0.20687166355096248,
+      "validation_score": 0.03768413188525947
+    },
+    {
+      "epoch": 16,
+      "mean_bce": 0.2054364385233578,
+      "validation_score": 0.036477190022409796
+    },
+    {
+      "epoch": 17,
+      "mean_bce": 0.20441019058585036,
+      "validation_score": 0.03805760727279187
+    },
+    {
+      "epoch": 18,
+      "mean_bce": 0.20286810345820241,
+      "validation_score": 0.038421959546011665
+    }
+  ],
+  "training_or_loading_seconds": 1605.484624600038
+}

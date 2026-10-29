@@ -1,0 +1,43 @@
+{
+  "dataset": "last-fm",
+  "rows": 13351700,
+  "users": 267034,
+  "features": [
+    "user_id",
+    "item_id",
+    "gender",
+    "age",
+    "country",
+    "signup_date",
+    "cate"
+  ],
+  "audit_attributes": [
+    "gender",
+    "age",
+    "country"
+  ],
+  "source_csv": "C:\\Users\\DELL\\Documents\\repo\\FairRec\\data\\last-fm\\processed_data\\test_data.csv",
+  "source_sha256": "97c4710e5455ad0c1553550a5c85832f75c34e53e8e5b1f14176b9b12319b28a",
+  "checkpoint_sha256": {
+    "C:\\Users\\DELL\\Documents\\repo\\FairRec\\model\\deepfm-last-fm\\deepfm-last-fm.ckpt.data-00000-of-00001": "26589c046aeaf036a4ceeec0567b6aadeb017ab2fb0ba3d4dcb1c2e05f90b405",
+    "C:\\Users\\DELL\\Documents\\repo\\FairRec\\model\\deepfm-last-fm\\deepfm-last-fm.ckpt.index": "751f234a60ad8c8f68826c0170de66d0f26df44cb12e8b304da332ecb6020971"
+  },
+  "native_source_sha256": "5e78dfa5a2c024a31dcd8ddb4be0f123b952b1c690c3d245ca753296fb602371",
+  "exporter_sha256": "e97ded35156a9a49e19e3eb213c92a74b4c092a9e9c00c8e2d63a458ed157e5e",
+  "utility_csv_sha256": "92b05bc98eb416b391d6431ac9ea0a48a05ba65f15865a1f1cb3e008519f44bb",
+  "python": "3.8.0 (tags/v3.8.0:fa919fd, Oct 14 2019, 19:37:50) [MSC v.1916 64 bit (AMD64)]",
+  "tensorflow": "2.3.0",
+  "model": "supplied frozen DeepFM; no retraining; original training seeds/settings not verified",
+  "restoration": "assert_existing_objects_matched passed for all model variables; unused saved optimizer slots allowed",
+  "embedding_dim": 4,
+  "prediction_batch_size": 8192,
+  "threads": [
+    4,
+    1
+  ],
+  "candidate_count_min": 50,
+  "candidate_count_max": 50,
+  "utility": "NDCG@10; one positive; supplied sampled candidates; score descending then item id ascending",
+  "duplicate_policy": "candidate rows retained; negative tie with identical item id ranks before positive",
+  "disclosure": "Post hoc external-dataset audit. Original train/test disjointness cannot be independently reconstructed."
+}

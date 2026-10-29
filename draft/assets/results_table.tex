@@ -1,0 +1,17 @@
+% Requires \usepackage{booktabs}
+\begin{table*}[t]
+\centering
+\caption{Synthetic categorical benchmark. Mean and sample standard deviation across three runs per method. Subgroup diversity counts distinct candidates with synthetic score above 0.65.}
+\label{tab:synthetic}
+\begin{tabular}{lrrrr}
+\toprule
+Algorithm & Max synthetic score & Blocks$^{*}$ & Subgroup diversity & Time (s) \\
+\midrule
+DPSO (native) & $0.6084 \pm 0.0096$ & $95.3 \pm 69.3$ & $0.0 \pm 0.0$ & $0.0955 \pm 0.0016$ \\
+GA & $0.7194 \pm 0.0072$ & $63.7 \pm 36.7$ & $405.0 \pm 83.4$ & $0.2643 \pm 0.0049$ \\
+ACO & $0.7263 \pm 0.0272$ & $69.3 \pm 30.2$ & $546.7 \pm 219.8$ & $1.5355 \pm 0.0176$ \\
+DE & $0.7350 \pm 0.0136$ & $77.3 \pm 8.3$ & $258.7 \pm 32.7$ & $0.5078 \pm 0.0206$ \\
+\bottomrule
+\end{tabular}
+\par\smallskip\footnotesize $^{*}$First attainment of the final best in common evaluation blocks; retrospective proxy, not proven convergence.
+\end{table*}

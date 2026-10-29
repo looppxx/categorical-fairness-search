@@ -1,0 +1,49 @@
+{
+  "status": "complete_and_verified",
+  "empirical_runs": 300,
+  "synthetic_runs": 675,
+  "total_objective_requests": 3900000,
+  "checkpoint_seeds": [
+    42,
+    100,
+    2026
+  ],
+  "search_seeds_per_checkpoint_per_grammar_per_method": 10,
+  "synthetic_landscape_instances": 9,
+  "encodings_per_instance": 3,
+  "synthetic_search_seeds_per_encoding": 5,
+  "algorithms": [
+    "DPSO (native)",
+    "GA",
+    "ACO",
+    "DE",
+    "Random"
+  ],
+  "dataset_count": 1,
+  "trace_verification": {
+    "runs": 975,
+    "requests": 3900000,
+    "semantic_checks": 1244550,
+    "status": "passed",
+    "scope": "all request/cache/archive records; every empirical score; every 61st synthetic score"
+  },
+  "full_grammar_optimum_hits": {
+    "DPSO (native)": 28,
+    "GA": 30,
+    "ACO": 30,
+    "DE": 30,
+    "Random": 30
+  },
+  "full_grammar_runs_per_method": 30,
+  "high_full_cells": [
+    14,
+    18,
+    15
+  ],
+  "high_cells_with_high_selected_parent": [
+    0,
+    0,
+    1
+  ],
+  "inference_scope": "post hoc; same audit users; no adjusted population significance"
+}

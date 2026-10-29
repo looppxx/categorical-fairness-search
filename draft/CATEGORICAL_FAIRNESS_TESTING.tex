@@ -1,0 +1,64 @@
+% IEEE-conference-template-062824 layout; original template remains unchanged.
+% Manuscript maintained directly. Do not regenerate from the older Markdown outline.
+\documentclass[conference]{IEEEtran}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{balance}
+\usepackage{textcomp}
+\usepackage[hidelinks]{hyperref}
+\begin{document}
+\title{An Empirical Analysis of Categorical Search and Feature Selection in Recommender Fairness Testing}
+
+\author{
+\IEEEauthorblockN{Loo Pei Xin, Abdullateef Oluwagbemiga Balogun, Ahmad Sobri Hashim, Hussaini Mamman}
+\IEEEauthorblockA{Department of Computing\\
+Universiti Teknologi PETRONAS\\
+Seri Iskandar, Malaysia\\
+pei\_21000483@utp.edu.my, abdullateef.ob@utp.edu.my, sobri.hashim@utp.edu.my, hussaini@utp.edu.my}
+}
+
+\maketitle
+
+\begin{abstract}
+Feature selection changes which intersections a fairness audit can express, even when an optimizer successfully searches the remaining subgroups. We present a controlled empirical investigation of categorical subgroup search and feature-selection effects in recommender-system fairness testing. Established genetic algorithm (GA), ant colony optimization (ACO), differential evolution, artificial bee colony, and simulated annealing operators are compared with native double-ended discrete particle swarm optimization (DPSO), uniform random sampling, and exact enumeration where tractable. Synthetic experiments separate search behavior from recommendation utility; frozen-model audits cover MovieLens-1M, LFM360K, and a processed Amazon extract. On the evaluated synthetic landscapes, GA and ACO exceed native DPSO in mean maximum score. In MovieLens, random sampling already attains every exact full-grammar optimum, and enumeration needs only 294 evaluations, providing no evidence that adaptive optimization is necessary. The principal MovieLens finding concerns feature projection: 14, 18, and 15 observed above-threshold intersections reduce to 0, 0, and 1 with above-threshold projected parents across three checkpoints. This attenuation arises from backward elimination of audit attributes using activity-proxy labels and concerns that evaluated wrapper. Additional selection-target, subset-size, support, and dataset controls examine the scope of this effect. The contribution is empirical evidence about search and audit representation, with conclusions conditional on the evaluated models, metadata, and ranking protocols.
+\end{abstract}
+
+\begin{IEEEkeywords}
+fairness testing, recommender systems, subgroup discovery, evolutionary computation, feature selection
+\end{IEEEkeywords}
+
+\section{Introduction}
+\label{sec:introduction}
+
+Recommender systems shape who receives useful recommendations, which items attract attention, and how opportunities are distributed across a platform. Evaluating these systems therefore requires considering the allocation of benefits among users, item providers, and other affected parties alongside aggregate predictive accuracy~\cite{burke2017multisided,biega2018equity,singh2018fairness}. Strong average ranking quality can coexist with systematically poorer recommendations for particular demographic groups. Prior work accordingly motivates explicit assessment of distributional differences as a distinct dimension of recommendation quality~\cite{yao2017beyond,beutel2019fairness}.
+
+This assessment becomes more demanding when disadvantage occurs at demographic intersections. Users sharing several categorical attributes may experience disparities that are less apparent within broader groups. The resulting candidate space grows combinatorially, while sparse observations leave many combinations unsupported. Effective testing must therefore identify severe disadvantage and characterize how broadly it is distributed within the supported subgroup space.
+
+FairRec searches for advantaged and disadvantaged groups using double-ended discrete particle swarm optimization~\cite{guo2023fairrec}. Its numerical movement rules use differences between nominal category codes, although those codes have no intrinsic distance. Incumbent-directed movement may also concentrate evaluations. We examine discovery breadth under these choices while retaining FairRec's thermal and double-ended exploration mechanisms.
+
+FairAS targets general disadvantaged groups through adaptive sampling and local search~\cite{wu2025nobias}, motivating a persistent discovery archive alongside extreme-score reporting. A complementary challenge is reducing subgroup dimensionality without removing predicates needed to express disadvantage. Search policy and feature selection therefore require distinct evaluation.
+
+Our central question is how feature selection affects fairness testing: can reducing the audit grammar obscure observed intersectional utility disparities even when search succeeds? We investigate this question through controlled subgroup comparisons, using established search algorithms as experimental instruments. The evaluated selection method applies Greedy Backward Elimination to the complete audit schema using development-user labels. In the original MovieLens experiment, these labels describe training activity rather than fairness outcomes. The analysis therefore concerns the projection induced by this predictive wrapper and whether observed intersectional signals survive it.
+
+Calibration and exposure-opportunity measurements contextualize recommendation content. Causal and counterfactual discrimination require additional assumptions and intervention-based analysis~\cite{li2021towards,medda2024gnnuers}; longitudinal feedback also lies outside this static audit~\cite{mansoury2020feedback,zoralioglu2024dynamic}.
+
+We ask: (RQ1) how do established search methods differ in attained severity and discovery breadth under matched request budgets; (RQ2) how much observed disparity survives feature projection, and how does this depend on selection target, subset cap, and support; and (RQ3) which observations extend to additional frozen-model datasets? The study separates synthetic search landscapes from real recommendation outcomes. MovieLens provides an exhaustively tractable demographic audit; supplementary LFM360K and Amazon audits examine additional metadata under a sampled-candidate protocol. Amazon's behavioral profiles are not protected demographic attributes. The paper makes three empirical contributions:
+\begin{enumerate}
+    \item A controlled comparison of five established heuristic challengers---GA, ACO, DE, ABC, and SA---against native DPSO and random sampling, with shared scoring, request accounting, and discovery measurements.
+    \item A feature-projection analysis showing how the evaluated activity-proxy/backward-elimination pipeline can obscure observed MovieLens intersections, with selection-target, subset-size, and support ablations that bound the interpretation.
+    \item Frozen-model audits across three datasets, using exact references and fixed-rule confirmation to distinguish optimizer attainment, expressible disparity, and outcome persistence. Negative optimizer findings are reported as empirical results.
+\end{enumerate}
+
+\input{sections/related_work.tex}
+\input{sections/methodology.tex}
+\input{sections/experimental_setup.tex}
+\input{sections/results.tex}
+\input{sections/discussion.tex}
+
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+\end{document}

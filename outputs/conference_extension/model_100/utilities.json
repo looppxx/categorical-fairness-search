@@ -1,0 +1,13 @@
+{
+  "checkpoint_sha256": "137de10476ef961316e42ca875a81977d1e244f30597512258d3f0903e9e155c",
+  "data_sha256": "b9dce7d71156cb5405291b9b7e81156c9ed46135d715362571fb0e78b1dda32c",
+  "audit_user_sha256": "8e92d4b5e3a7a4bdea937d1b3793b7ef71316cda0542609af5da4c778f25e8f2",
+  "ranking_source_sha256": "5793ad26928b99b7ec57cf169b3bd17a37e49c6ae1a0a35d1bb3291e5b62c03c",
+  "metric": "ndcg",
+  "k": 10,
+  "protocol": "original full-catalog train-mask; test also masks validation",
+  "model_sha256": "a165d25b8707c0c86c5931f1e203ff778de13da81107cd72da85da3c963799bc",
+  "inference_seconds": 17.822113700094633,
+  "note": "Test arrays are used for fixed-rule confirmation only, never fitness or tuning",
+  "cache_sha256": "b842b9a6a6d2b6bd03f0804071122a4b690a5c71b141a8cf5206a4a0ba764391"
+}

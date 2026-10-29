@@ -1,0 +1,17 @@
+\section{Related Work}
+\label{sec:related}
+
+\subsection{Fairness Testing and Subgroup Discovery}
+FairRec formulates fairness testing for deep recommenders across utility, item diversity, and item popularity, and introduces double-ended discrete particle swarm optimization to search for disadvantaged groups~\cite{guo2023fairrec}. Our study builds on this multi-perspective testing formulation and examines its search component using the native optimizer definitions with a controlled synthetic scoring oracle. This design isolates behavior on a specified landscape while keeping the scope distinct from replication of the original recommendation experiments.
+
+FairAS targets general disadvantaged groups, motivating evaluation of discovery breadth in addition to an extreme score~\cite{wu2025nobias}. Our optional native adapter substitutes a categorical local-search hook within its adaptive driver; the portable mode implements a FairAS-inspired driver. Reporting these modes separately preserves the distinction between local-operator changes and changes to sampling, duplicate handling, or neighborhood construction.
+
+\subsection{Categorical Search and Feature Selection}
+Construction-based ACO represents a candidate as a sequence of discrete choices~\cite{dorigo1996ants}; GA recombines assignments across candidates. DE was developed for continuous optimization~\cite{storn1997de}; its use here requires an explicit random-key decoder. ABC~\cite{karaboga2007abc} and SA~\cite{kirkpatrick1983sa} add population-based categorical neighborhood search and a single-trajectory acceptance policy. These are established algorithm families. Our contribution is an empirical analysis of their search outcomes and of the subgroup signals retained after feature projection under explicit scoring and request policies.
+
+Filter criteria such as mRMR balance feature relevance against redundancy~\cite{peng2005mrmr}, whereas wrappers evaluate candidate subsets through a predictive estimator. Our real-data study evaluates backward elimination from the complete audit schema. It asks whether the resulting projection preserves observed intersectional utility gaps; predictive feature relevance alone does not establish that preservation.
+
+\subsection{Recommendation Calibration and Exposure}
+NeuMF combines generalized matrix factorization and neural interaction modeling~\cite{he2017ncf}. Its predictions provide the recommendation slates audited here. Preference calibration has previously been studied as a recommendation objective~\cite{steck2018calibration}. Building on this motivation, our subgroup audit measures historical versus recommended genre distributions using Jensen--Shannon divergence. This defines the diagnostic used in our framework independently of the optimization formulation in the original calibration study.
+
+Exposure fairness in rankings depends on an explicitly justified comparison target~\cite{singh2018fairness}. Our exposure-opportunity metric compares genre exposure with each user's eligible-catalog genre distribution. This user-level category-distribution diagnostic complements provider-oriented exposure formulations by making its eligible-catalog reference explicit. Calibration and exposure-opportunity measurements extend the framework's behavioral reporting through established auditing concepts.

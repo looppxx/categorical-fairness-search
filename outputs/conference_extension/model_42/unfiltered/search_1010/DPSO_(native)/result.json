@@ -1,0 +1,27 @@
+{
+  "model_seed": 42,
+  "grammar": "unfiltered",
+  "algorithm": "DPSO (native)",
+  "search_seed": 1010,
+  "maximum_score": 0.034665336257755947,
+  "best_group": [
+    1,
+    1,
+    17
+  ],
+  "best_found_query": 39,
+  "requests": 4000,
+  "unique_groups": 131,
+  "invalid_requests": 1599,
+  "threshold_groups": 10,
+  "search_seconds": 0.2625261000357568,
+  "objective_sha256": "27c03f0855bd3d45d2965edef3efff6bd6b07c37d7f1f7bb0b4c144fd2f24235",
+  "exact_optimum": 0.04661510321724691,
+  "regret": 0.011949766959490966,
+  "optimum_found": false,
+  "valid_cells": 61,
+  "total_cells": 294,
+  "reference_high": 14,
+  "threshold_recall": 0.7142857142857143,
+  "first_optimum_query": null
+}

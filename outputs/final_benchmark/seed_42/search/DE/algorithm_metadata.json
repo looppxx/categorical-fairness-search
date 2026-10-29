@@ -1,0 +1,4 @@
+{
+  "stopping": "request_budget",
+  "backend": "categorical_search_kernel"
+}

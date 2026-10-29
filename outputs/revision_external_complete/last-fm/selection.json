@@ -1,0 +1,70 @@
+{
+  "target": "development mean NDCG@10 minus user NDCG@10 >= .02",
+  "target_positive": 32624,
+  "development_users": 80110,
+  "arms": {
+    "utility_cap2": {
+      "selected_features": [
+        "gender",
+        "country"
+      ],
+      "filter_union": [
+        "gender",
+        "age",
+        "country"
+      ],
+      "wrapper_history": [
+        {
+          "features": [
+            0,
+            1,
+            2
+          ],
+          "score": 0.5011282997330299
+        },
+        {
+          "features": [
+            0,
+            2
+          ],
+          "score": 0.502798313286066
+        }
+      ]
+    },
+    "utility_cap3": {
+      "selected_features": [
+        "gender",
+        "country"
+      ],
+      "filter_union": [
+        "gender",
+        "age",
+        "country"
+      ],
+      "wrapper_history": [
+        {
+          "features": [
+            0,
+            1,
+            2
+          ],
+          "score": 0.5011282997330299
+        },
+        {
+          "features": [
+            0,
+            2
+          ],
+          "score": 0.502798313286066
+        }
+      ]
+    },
+    "unfiltered": {
+      "selected_features": [
+        "gender",
+        "age",
+        "country"
+      ]
+    }
+  }
+}

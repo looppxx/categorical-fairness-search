@@ -1,0 +1,72 @@
+\section{Methodology}
+\label{sec:methodology}
+
+\subsection{Recommender System and Objective Formulation}
+We audit a frozen PyTorch Neural Matrix Factorization (NeuMF) recommender~\cite{he2017ncf}. Per-user NDCG@$K$ or Recall@$K$ supplies utility; the model, ranking protocol, and eligible items are fixed across search methods.
+
+MovieLens supplies a diagnostic case study: its three-attribute full grammar has 294 cells and is exhaustively tractable. The 24-attribute synthetic experiments supply controlled high-dimensional search evidence, while two additional frozen-model datasets examine other metadata and supported densities. The study does not establish general real-model scalability or a universal heuristic advantage.
+
+Let $\mathcal{U}$ be the audit population and $q_m(u)$ user $u$'s utility under metric $m$. A subgroup conjoins one category per retained attribute, stored as category indices or equivalent concatenated one-hot blocks. Category codes imply no demographic distance.
+
+For a subgroup $g$ with membership set $\mathcal{U}_g$, we define its signed utility disparity as
+\begin{equation}
+\label{eq:utility-gap}
+\Delta_m(g)=\overline{q}_m(\mathcal{U})-\overline{q}_m(\mathcal{U}_g),
+\end{equation}
+where, for any nonempty user set $A$,
+\begin{equation}
+\overline{q}_m(A)=\frac{1}{|A|}\sum_{u\in A}q_m(u).
+\end{equation}
+Positive values indicate that the subgroup receives lower recommendation utility than the global average. The primary search objective is
+\begin{equation}
+\label{eq:search-objective}
+g^{*}=\underset{g:\,|\mathcal{U}_g|\geq n_{\min}}{\operatorname{arg\,max}}\;\Delta_m(g),
+\end{equation}
+where $n_{\min}$ excludes empty and insufficiently supported groups. This global-reference objective is an adaptation of the testing formulation and is distinguished from FairRec's range between extreme subgroup scores. Discovery uses validation interactions; selected subgroup rules are subsequently evaluated using held-out test interactions.
+
+\subsection{Feature Selection and Audit Projection}
+\label{sec:feature-selection}
+The evaluated real-data selection method is Greedy Backward Elimination starting from the complete audit schema. We compare its selected grammar with the grammar containing all available audit attributes. This comparison measures the effect of removing predicates on expressible utility disparities; it does not evaluate a filter-fusion method.
+
+The wrapper predicts development-user labels from categorical audit attributes using a one-hot encoded decision tree and cross-validated balanced accuracy. The original MovieLens labels indicate training activity below the development median, a proxy rather than a fairness outcome. Alternative MovieLens ablation arms and the additional-dataset audits use development-only labels indicating a utility deficit of at least 0.02 relative to the development mean. These dichotomized per-user labels are not continuous subgroup-disparity or causal-discrimination labels.
+
+At each step, the wrapper evaluates all single-attribute deletions and chooses the deletion with the highest cross-validated predictive score, breaking ties by attribute order. Deletions are required until the maximum subset size is met. Thereafter, elimination stops if the best deletion would reduce the current score by more than the specified tolerance, or when the minimum subset size is reached. The cap is therefore an upper bound rather than a prescribed final size. Section~\ref{sec:experimental-setup} reports the estimator, folds, tolerance, and size constraints. Final confirmation outcomes do not determine selection settings.
+
+The ablations compare no selection, alternative development targets, and subset-size caps. They assess this wrapper and the resulting projection, without attributing an effect to an unevaluated selection component. Predictive performance on development labels does not guarantee retention of intersectional fairness signals.
+
+Feature removal changes the subgroup predicates available to the search, while eliminated attributes remain unconstrained. The audit population, recommender, utility metric, and global utility reference remain fixed. Consequently, feature selection reduces the dimensionality of subgroup discovery without redefining the comparison population.
+
+\subsection{Categorical Search Adapters}
+FairRec employs double-ended discrete particle swarm optimization (DPSO)~\cite{guo2023fairrec} to explore advantaged and disadvantaged subgroups. We investigate alternative operators because the inspected implementation constructs transitions using numerical differences between category codes, integer conversion, and boundary clipping. Nominal codes have no intrinsic distance, so equivalent category encodings can induce different numerical movements. Attraction toward incumbent solutions provides a second potential source of concentration, directing evaluations toward previously promising regions.
+
+The evaluation examines representation sensitivity and discovery concentration while retaining FairRec's thermal and double-ended exploration.
+
+The interchangeable GA adapter recombines attribute assignments through categorical crossover and introduces alternative values through mutation. These operators manipulate admissible categories without numerical distances between their codes.
+
+ACO constructs assignments probabilistically, with one decision layer per attribute. Pheromone reinforcement favors promising choices; evaporation, bounded trails, and explicit exploration limit concentration. Neither adapter constitutes a new optimization algorithm; the contribution is their controlled integration and evaluation.
+
+Three further established challengers broaden the empirical comparison. DE uses bounded random keys with per-attribute argmax decoding. ABC uses categorical donor moves, employed/onlooker phases, and charged scout restarts. SA uses one-coordinate category changes with geometric cooling. These are alternative search configurations, not additional algorithmic novelty. Random sampling and exhaustive enumeration establish whether adaptation yields a measurable advantage in a given grammar.
+
+Comparisons fix subgroup semantics, support, and request budgets, while recording initialization differences. Repeats and invalid requests count. Outcomes include maximum disparity, distinct above-threshold groups, runtime, and observed stagnation.
+
+An optional hybrid tester exposes the same operators through a FairAS local-search hook, with a shared request cap and persistent archive. Its mock integration checks are separate from the standalone comparisons reported here.
+
+\subsection{Expanded Bias Auditing}
+The framework supplements utility disparity with calibration and exposure-opportunity mismatch evaluators. These measurements characterize recommendation behaviors that aggregate NDCG or Recall gaps alone may not reveal.
+
+For each user, calibration compares a category-preference distribution derived exclusively from training interactions with the rank-discounted category distribution of the recommendation slate. We quantify disagreement using base-2 Jensen--Shannon divergence:
+\begin{equation}
+\label{eq:calibration}
+C(u)=\operatorname{JSD}_{2}\!\left(P_u^{\mathrm{history}},P_u^{\mathrm{slate}}\right).
+\end{equation}
+Exposure-opportunity mismatch compares the same slate distribution with a declared opportunity distribution, using total variation distance:
+\begin{equation}
+\label{eq:exposure}
+E(u)=\frac{1}{2}\sum_c\left|P_u^{\mathrm{slate}}(c)-P_u^{\mathrm{opportunity}}(c)\right|.
+\end{equation}
+Opportunity uses the eligible-catalog category distribution. This is a descriptive reference; normative interpretations require a separately justified target.
+
+The framework records subgroup/global means and signed/absolute gaps without changing utility fitness. Positive signed gaps indicate greater mismatch. Utility-selected groups need not reveal harms occurring only on another behavioral axis; those require a corresponding search objective.
+
+
+Item mass is distributed across its genres; slate exposure uses normalized $w_r=1/\log_2(r+1)$. Opportunity averages genre mass over eligible items after ranking masks. Empty histories make calibration unavailable. Popularity and intra-list diversity are also logged, without novelty claims relative to FairRec. Audit rows follow utility-user order, with metric-specific valid counts.

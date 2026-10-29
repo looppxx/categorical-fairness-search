@@ -1,0 +1,76 @@
+{
+  "epochs_completed": 13,
+  "best_epoch": 8,
+  "best_validation_score": 0.04260679967236431,
+  "early_stopping_triggered": true,
+  "stopping": "validation_patience",
+  "criterion": "development-user held-out utility",
+  "history": [
+    {
+      "epoch": 1,
+      "mean_bce": 0.31930250253624387,
+      "validation_score": 0.025973043072262128
+    },
+    {
+      "epoch": 2,
+      "mean_bce": 0.26601866693849635,
+      "validation_score": 0.031981580504225025
+    },
+    {
+      "epoch": 3,
+      "mean_bce": 0.2508626677027232,
+      "validation_score": 0.033566265858714105
+    },
+    {
+      "epoch": 4,
+      "mean_bce": 0.24108641071565498,
+      "validation_score": 0.0342931315770796
+    },
+    {
+      "epoch": 5,
+      "mean_bce": 0.23374987936131061,
+      "validation_score": 0.037602421022068976
+    },
+    {
+      "epoch": 6,
+      "mean_bce": 0.22820270252544303,
+      "validation_score": 0.03864259369184094
+    },
+    {
+      "epoch": 7,
+      "mean_bce": 0.22393700427192154,
+      "validation_score": 0.04143618536455757
+    },
+    {
+      "epoch": 8,
+      "mean_bce": 0.22076020883035946,
+      "validation_score": 0.04260679967236431
+    },
+    {
+      "epoch": 9,
+      "mean_bce": 0.21821773109484954,
+      "validation_score": 0.041472107952853304
+    },
+    {
+      "epoch": 10,
+      "mean_bce": 0.2155577052374045,
+      "validation_score": 0.04222137397029998
+    },
+    {
+      "epoch": 11,
+      "mean_bce": 0.21337361258705206,
+      "validation_score": 0.04077333336691948
+    },
+    {
+      "epoch": 12,
+      "mean_bce": 0.2113728199363856,
+      "validation_score": 0.04090908662164709
+    },
+    {
+      "epoch": 13,
+      "mean_bce": 0.20970103794238382,
+      "validation_score": 0.041405296455074556
+    }
+  ],
+  "training_or_loading_seconds": 1159.322029999923
+}

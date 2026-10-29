@@ -1,0 +1,7 @@
+{
+  "status": "no_supported_cells",
+  "min_support": 20,
+  "total_cells": 8820,
+  "searches": 0,
+  "explanation": "Primary grammar is infeasible; keep fixed support and report all sensitivity cases"
+}

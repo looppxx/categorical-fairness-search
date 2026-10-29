@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "model_seeds": [
+    42,
+    100,
+    2026
+  ],
+  "selection_arms": 12,
+  "support_cases": 60,
+  "unique_primary_searches": 400,
+  "objective_requests": 1600000,
+  "primary_support": 50
+}

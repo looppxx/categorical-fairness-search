@@ -1,0 +1,16 @@
+\begin{table*}[t]
+\centering
+\caption{Additional datasets: exact-optimum hit rate / mean above-threshold recall (percent), ten search seeds per method/grammar at 4,000 requests. Each dataset has one supplied checkpoint; all seven methods are evaluated in both selected and full grammars.}
+\label{tab:additional-search}
+\small
+\begin{tabular}{llrrrrrrr}
+\toprule
+Dataset & Space & DPSO & GA & ACO & DE & ABC & SA & Random \\
+\midrule
+LFM360K & Sel. & 30/51 & 100/100 & 100/99 & 30/69 & 100/89 & 100/98 & 100/100 \\
+LFM360K & Full & 0/1 & 0/15 & 20/19 & 10/28 & 0/8 & 30/20 & 20/7 \\
+Amazon & Sel. & 100/73 & 100/100 & 100/97 & 100/100 & 100/100 & 100/100 & 100/100 \\
+Amazon & Full & 50/23 & 90/89 & 30/46 & 60/58 & 90/93 & 50/73 & 100/98 \\
+\bottomrule
+\end{tabular}
+\end{table*}

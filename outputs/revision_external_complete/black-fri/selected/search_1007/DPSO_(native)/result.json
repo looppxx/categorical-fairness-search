@@ -1,0 +1,25 @@
+{
+  "dataset": "black-fri",
+  "grammar": "selected",
+  "algorithm": "DPSO (native)",
+  "search_seed": 1007,
+  "maximum_score": 0.043118995019796935,
+  "best_group": [
+    4
+  ],
+  "best_found_query": 4,
+  "requests": 4000,
+  "unique_groups": 7,
+  "invalid_requests": 0,
+  "threshold_groups": 2,
+  "search_seconds": 0.3439303000000109,
+  "objective_sha256": "671c0a25e4f884327c46f2300621107707e07e41703b9ba0473b3f907f6a3211",
+  "exact_optimum": 0.043118995019796935,
+  "regret": 0.0,
+  "optimum_found": true,
+  "valid_cells": 7,
+  "total_cells": 7,
+  "reference_high": 2,
+  "threshold_recall": 1.0,
+  "first_optimum_query": 4
+}

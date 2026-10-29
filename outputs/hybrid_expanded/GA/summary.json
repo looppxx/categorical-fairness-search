@@ -1,0 +1,51 @@
+{
+  "backend": "portable_fairas_inspired",
+  "algorithm": "FairAS-GA",
+  "objective_sha256": "5e40926b61d93ff3057ffffb6b882eb29dc90f47df33ada37cd5c58d432f2a59",
+  "local_radius": 2,
+  "frozen_local_features": [],
+  "stopping": "categorical_space_exhausted",
+  "duplicate_keys": "tuples",
+  "requests": 27,
+  "unique_groups": 9,
+  "invalid_requests": 0,
+  "local_invocations": 1,
+  "maximum_disparity": 0.23573992345471906,
+  "best_subgroup": [
+    1,
+    1
+  ],
+  "subgroup_diversity": 3,
+  "cache_results": true,
+  "execution_seconds": 0.004634000011719763,
+  "search_seed": 42,
+  "request_budget": 300,
+  "threshold": 0.1,
+  "population": 8,
+  "local_budget": 24,
+  "one_step_num": 3,
+  "selected_features": [
+    "attribute_0",
+    "attribute_1"
+  ],
+  "eliminated_features": [
+    "attribute_2",
+    "attribute_3",
+    "attribute_4",
+    "attribute_5",
+    "attribute_6",
+    "attribute_7",
+    "attribute_8",
+    "attribute_9",
+    "attribute_10",
+    "attribute_11",
+    "attribute_12",
+    "attribute_13",
+    "attribute_14",
+    "attribute_15",
+    "attribute_16",
+    "attribute_17",
+    "attribute_18",
+    "attribute_19"
+  ]
+}

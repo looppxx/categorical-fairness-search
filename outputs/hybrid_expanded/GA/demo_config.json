@@ -1,0 +1,19 @@
+{
+  "algorithm": "both",
+  "features": 20,
+  "development_users": 600,
+  "audit_users": 1500,
+  "top_n": 4,
+  "max_features": 3,
+  "min_support": 15,
+  "population": 8,
+  "local_budget": 24,
+  "radius": 2,
+  "one_step_num": 3,
+  "budget": 300,
+  "threshold": 0.1,
+  "seed": 42,
+  "native_source": null,
+  "expanded_bias": true,
+  "out": "outputs\\hybrid_expanded"
+}

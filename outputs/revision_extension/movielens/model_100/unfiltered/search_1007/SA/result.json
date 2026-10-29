@@ -1,0 +1,27 @@
+{
+  "model_seed": 100,
+  "grammar": "unfiltered",
+  "algorithm": "SA",
+  "search_seed": 1007,
+  "maximum_score": 0.043779775208676076,
+  "best_group": [
+    1,
+    2,
+    12
+  ],
+  "best_found_query": 86,
+  "requests": 4000,
+  "unique_groups": 256,
+  "invalid_requests": 2851,
+  "threshold_groups": 18,
+  "search_seconds": 0.17122299999982715,
+  "objective_sha256": "d3697446d4f740c622beb754a9a826493582c14183ccece8004c29bf106e84a9",
+  "exact_optimum": 0.043779775208676076,
+  "regret": 0.0,
+  "optimum_found": true,
+  "valid_cells": 61,
+  "total_cells": 294,
+  "reference_high": 18,
+  "threshold_recall": 1.0,
+  "first_optimum_query": 86
+}

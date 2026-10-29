@@ -1,0 +1,32 @@
+{
+  "model_seed": 42,
+  "grammar": "gender,age,occupation",
+  "aliases": [
+    "activity_cap3",
+    "unfiltered"
+  ],
+  "min_support": 50,
+  "algorithm": "ACO",
+  "search_seed": 1007,
+  "maximum_score": 0.034665336257755947,
+  "best_group": [
+    1,
+    1,
+    17
+  ],
+  "best_found_query": 179,
+  "requests": 4000,
+  "unique_groups": 188,
+  "invalid_requests": 1137,
+  "threshold_groups": 6,
+  "search_seconds": 1.3605066000018269,
+  "objective_sha256": "1fc37cb82c05aff2e3fa3dad142953c7a970fcf6dcd40104f2a0d78cb34cfadf",
+  "exact_optimum": 0.034665336257755947,
+  "regret": 0.0,
+  "optimum_found": true,
+  "valid_cells": 19,
+  "total_cells": 294,
+  "reference_high": 6,
+  "threshold_recall": 1.0,
+  "first_optimum_query": 179
+}

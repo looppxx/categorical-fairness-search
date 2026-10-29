@@ -1,0 +1,36 @@
+dataset,grammar,algorithm,runs,hit_rate,mean_recall,mean_regret
+last-fm,selected,DPSO (native),10,0.3,0.5065217391304347,0.01306217468739991
+last-fm,selected,GA,10,1.0,0.9956521739130434,0.0
+last-fm,selected,ACO,10,1.0,0.9869565217391305,0.0
+last-fm,selected,DE,10,0.3,0.6891304347826088,0.0018747665065241702
+last-fm,selected,ABC,10,1.0,0.8934782608695653,0.0
+last-fm,selected,SA,10,1.0,0.9804347826086957,0.0
+last-fm,selected,Random,10,1.0,1.0,0.0
+last-fm,unfiltered,DPSO (native),10,0.0,0.01021671826625383,0.14576332524078078
+last-fm,unfiltered,GA,10,0.0,0.15139318885448913,0.051533117319050824
+last-fm,unfiltered,ACO,10,0.2,0.19226006191950462,0.02867515412669569
+last-fm,unfiltered,DE,10,0.1,0.2758513931888545,0.030485684128405945
+last-fm,unfiltered,ABC,10,0.0,0.0839009287925696,0.0466699060465393
+last-fm,unfiltered,SA,10,0.3,0.19938080495356028,0.02308191688492801
+last-fm,unfiltered,Random,10,0.2,0.07244582043343649,0.046135822644440584
+black-fri,selected,DPSO (native),10,1.0,1.0,0.0
+black-fri,selected,GA,10,1.0,1.0,0.0
+black-fri,selected,ACO,10,1.0,1.0,0.0
+black-fri,selected,DE,10,1.0,1.0,0.0
+black-fri,selected,ABC,10,1.0,1.0,0.0
+black-fri,selected,SA,10,1.0,1.0,0.0
+black-fri,selected,Random,10,1.0,1.0,0.0
+amazon,selected,DPSO (native),10,1.0,0.7272727272727273,0.0
+amazon,selected,GA,10,1.0,1.0,0.0
+amazon,selected,ACO,10,1.0,0.9727272727272727,0.0
+amazon,selected,DE,10,1.0,1.0,0.0
+amazon,selected,ABC,10,1.0,1.0,0.0
+amazon,selected,SA,10,1.0,1.0,0.0
+amazon,selected,Random,10,1.0,1.0,0.0
+amazon,unfiltered,DPSO (native),10,0.5,0.22619047619047614,0.033166983169767766
+amazon,unfiltered,GA,10,0.9,0.8928571428571427,0.00485502187793617
+amazon,unfiltered,ACO,10,0.3,0.45595238095238094,0.03879247369686475
+amazon,unfiltered,DE,10,0.6,0.5785714285714285,0.02051411037004414
+amazon,unfiltered,ABC,10,0.9,0.930952380952381,0.00485502187793617
+amazon,unfiltered,SA,10,0.5,0.7273809523809524,0.025369132247980312
+amazon,unfiltered,Random,10,1.0,0.9797619047619046,0.0

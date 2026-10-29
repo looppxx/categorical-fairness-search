@@ -1,0 +1,131 @@
+{
+  "target": "development mean NDCG@10 minus user NDCG@10 >= .02",
+  "target_positive": 953,
+  "development_users": 1767,
+  "arms": {
+    "utility_cap2": {
+      "selected_features": [
+        "age"
+      ],
+      "filter_union": [
+        "gender",
+        "age",
+        "occupation",
+        "city",
+        "stay_years",
+        "martial_status"
+      ],
+      "wrapper_history": [
+        {
+          "features": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "score": 0.5074254338606908
+        },
+        {
+          "features": [
+            0,
+            1,
+            2,
+            3,
+            5
+          ],
+          "score": 0.5163064367269556
+        },
+        {
+          "features": [
+            1,
+            2,
+            3,
+            5
+          ],
+          "score": 0.5174356318472504
+        },
+        {
+          "features": [
+            1,
+            2,
+            3
+          ],
+          "score": 0.5144672042964702
+        },
+        {
+          "features": [
+            1,
+            3
+          ],
+          "score": 0.517550406827834
+        },
+        {
+          "features": [
+            1
+          ],
+          "score": 0.524629213289458
+        }
+      ]
+    },
+    "utility_cap6": {
+      "selected_features": [
+        "age",
+        "occupation",
+        "city",
+        "martial_status"
+      ],
+      "filter_union": [
+        "gender",
+        "age",
+        "occupation",
+        "city",
+        "stay_years",
+        "martial_status"
+      ],
+      "wrapper_history": [
+        {
+          "features": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "score": 0.5074254338606908
+        },
+        {
+          "features": [
+            0,
+            1,
+            2,
+            3,
+            5
+          ],
+          "score": 0.5163064367269556
+        },
+        {
+          "features": [
+            1,
+            2,
+            3,
+            5
+          ],
+          "score": 0.5174356318472504
+        }
+      ]
+    },
+    "unfiltered": {
+      "selected_features": [
+        "gender",
+        "age",
+        "occupation",
+        "city",
+        "stay_years",
+        "martial_status"
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+name: Study checks
+
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  controls:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - name: Install CPU dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install -r requirements-recommender.txt -r requirements-publication.txt
+      - name: Run research controls
+        run: |
+          python -m unittest discover -s tests -p test_search_comparison.py -v
+          python -m unittest discover -s tests -p test_conference_extension.py -v
+          python -m unittest discover -s tests -p test_revision_extension.py -v
+          python -m unittest discover -s tests -p test_utility_support.py -v
+      - name: Verify and rebuild current manuscript records
+        run: python draft/build_revision_assets.py

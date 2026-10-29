@@ -1,0 +1,59 @@
+{
+  "arguments": {
+    "baseline": "outputs\\final_benchmark",
+    "previous": "outputs\\conference_extension",
+    "out": "outputs\\utility_support_extension",
+    "support_grid": [
+      20,
+      50,
+      100,
+      200
+    ],
+    "primary_support": 50,
+    "search_seeds": [
+      1001,
+      1002,
+      1003,
+      1004,
+      1005,
+      1006,
+      1007,
+      1008,
+      1009,
+      1010
+    ],
+    "budget": 4000,
+    "population": 20,
+    "threshold": 0.02
+  },
+  "input_sha256": {
+    "outputs\\final_benchmark\\config.json": "1c69b8bc164f992454a43987f82db4a54dfc1229848f7296253c4a02b64cf188",
+    "outputs\\final_benchmark\\user_split.json": "11f3959b8283aa31daac89d0e7b55b9086d3ed31cfa5c115fb8b48b9a730dc4a",
+    "C:\\Users\\DELL\\OneDrive - Universiti Teknologi PETRONAS\\PG\\result\\fairness_lab\\utility_support.py": "6aabb5c70a5c72ac1cff4d3585a9d56c8f44c8e646b5e99050574d1782bc1017",
+    "run_utility_support_extension.py": "a778270eddcbb94d054f470ea8e86f0912dc668e9b729ee0584555ed82fd22fc",
+    "fairness_lab\\conference.py": "ca4bc0823c65b7443d6f966944f8df608a36f8784abc0417749cfcdb8343549d",
+    "fairness_lab\\empirical.py": "d8a5e44f823f5470d092336c376bfe6da7a0a6c7720ba276bda50ad6e09cd6e6",
+    "fairness_lab\\categorical_selection.py": "e81185fa9fe3ffa8264c55755f1c09f544c76c817b1a31367ad9500d00495eae",
+    "fairness_lab\\features.py": "ee9c2aecd51e2a6f8005c3c2c05fd20ec80f40c10604afe54f7edf316b7daa3c",
+    "fairness_lab\\subgroup_objectives.py": "aa6d2ef9082eb9a4ec038ac45fe1af0f331113c16589f7fd1e51d89666df085b",
+    "fairness_lab\\recommender.py": "5793ad26928b99b7ec57cf169b3bd17a37e49c6ae1a0a35d1bb3291e5b62c03c",
+    "compare_fairrec_search.py": "3bbe59c2d46ff83acab333325a10fc44e0df740df6d4f8ce54fa4f6b96913ab3",
+    "outputs\\final_benchmark\\seed_42\\neumf.pt": "1033979a7a67670653765b761f986be0743ed0c4bf0d9e8daba1059eff163bcd",
+    "outputs\\conference_extension\\model_42\\utilities.npz": "8c152aa48457d4df05b028a4ce52bf04cd1ce6d2841c5b3ec66ace3ec0a1a6dc",
+    "outputs\\conference_extension\\model_42\\utilities.json": "0209f894d8adea094f9adabdef890faeb13d2da0403e30baf6c49aa1945f6cb7",
+    "outputs\\final_benchmark\\seed_100\\neumf.pt": "137de10476ef961316e42ca875a81977d1e244f30597512258d3f0903e9e155c",
+    "outputs\\conference_extension\\model_100\\utilities.npz": "b842b9a6a6d2b6bd03f0804071122a4b690a5c71b141a8cf5206a4a0ba764391",
+    "outputs\\conference_extension\\model_100\\utilities.json": "0b2fbb1f20b1d28eddc5882cbf5855d965dd77fd90743fafbff5ee838012114d",
+    "outputs\\final_benchmark\\seed_2026\\neumf.pt": "6f7185a741b3a29166eb58ac4192e6437cf73a146debbfc3e2ae5186a89aee06",
+    "outputs\\conference_extension\\model_2026\\utilities.npz": "47734b07ae336471cf42b43615acf0dc093e6f2b5b6bafed2831be15d4999d79",
+    "outputs\\conference_extension\\model_2026\\utilities.json": "fdc783f6e2cee36021dbf43e9bf342a143de74e7d1a0ab10e0be2843ea3dcdd6"
+  },
+  "native_sha256": "9ebb146bc3be94c209c90421094f2e83cbe2a7b0ddfc2231b9da718bc3db4159",
+  "labels": "development mean NDCG@10 minus per-development-user NDCG@10 >= 0.02",
+  "feature_caps": [
+    2,
+    3
+  ],
+  "primary_support_choice": "50 fixed before new test confirmation; report all grid values",
+  "design": "post hoc; classification selector unchanged; no new training; test utility never selects labels, features, support, or rules"
+}

@@ -1,0 +1,31 @@
+{
+  "model_seed": 2026,
+  "grammar": "gender,age",
+  "aliases": [
+    "activity_cap2",
+    "activity_cap3"
+  ],
+  "min_support": 50,
+  "algorithm": "Random",
+  "search_seed": 1009,
+  "maximum_score": 0.03669130847155651,
+  "best_group": [
+    0,
+    0
+  ],
+  "best_found_query": 3,
+  "requests": 4000,
+  "unique_groups": 14,
+  "invalid_requests": 0,
+  "threshold_groups": 1,
+  "search_seconds": 0.22811230004299432,
+  "objective_sha256": "32b2d329e73b45ff227f5f7c75638830c01fd04648a9e9a913c6396d3ae63116",
+  "exact_optimum": 0.03669130847155651,
+  "regret": 0.0,
+  "optimum_found": true,
+  "valid_cells": 14,
+  "total_cells": 14,
+  "reference_high": 1,
+  "threshold_recall": 1.0,
+  "first_optimum_query": 3
+}

@@ -1,0 +1,7 @@
+dataset,grammar,rule,discovery_gap,confirmation_gap,support,lower,upper,scope
+last-fm,selected,"{""gender"": ""1"", ""country"": ""104""}",0.11734814214497025,0.07657362848052407,12,-0.3555119607042272,0.5086592176652753,one discovery-fixed rule; separate users; frozen supplied checkpoint; pointwise bounded interval
+last-fm,unfiltered,"{""gender"": ""1"", ""age"": ""31"", ""country"": ""222""}",0.25111450443786254,0.11012674599366401,20,-0.22562805149125165,0.44588154347857967,one discovery-fixed rule; separate users; frozen supplied checkpoint; pointwise bounded interval
+black-fri,selected,"{""age"": ""5""}",0.043118995019796935,0.03499760963933535,177,-0.09787559028330631,0.167870809561977,one discovery-fixed rule; separate users; frozen supplied checkpoint; pointwise bounded interval
+black-fri,unfiltered,,,,0,,,not available: no supported discovery cell at fixed primary support
+amazon,selected,"{""his_level"": ""8"", ""max_price_level"": ""0""}",0.08780583753955462,0.010922943450627554,48,-0.20852359981305646,0.23036948671431157,one discovery-fixed rule; separate users; frozen supplied checkpoint; pointwise bounded interval
+amazon,unfiltered,"{""his_level"": ""9"", ""mean_price_level"": ""0"", ""max_price_level"": ""2""}",0.16987519663635636,0.10229309807576958,18,-0.25245815102593455,0.4570443471774737,one discovery-fixed rule; separate users; frozen supplied checkpoint; pointwise bounded interval

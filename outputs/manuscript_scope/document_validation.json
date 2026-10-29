@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "repository": "https://github.com/looppxx/categorical-fairness-search",
+  "pdf_pages": 11,
+  "repository_link_present": true,
+  "bounds_violations": 0,
+  "local_tests_passed": 14,
+  "recorded_requests_validated": 2680000,
+  "pdf_sha256": "30ec740670a0dfedb64577ef87d2e7ac06aa8a18a82f41ea195f1041ca30be6d"
+}

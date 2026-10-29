@@ -1,0 +1,18 @@
+{
+  "algorithm": "GA",
+  "features": 200,
+  "development_users": 300,
+  "audit_users": 600,
+  "top_n": 4,
+  "max_features": 3,
+  "min_support": 15,
+  "population": 8,
+  "local_budget": 24,
+  "radius": 2,
+  "one_step_num": 3,
+  "budget": 100,
+  "threshold": 0.1,
+  "seed": 42,
+  "native_source": null,
+  "out": "outputs\\hybrid_mock_200"
+}

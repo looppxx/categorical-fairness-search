@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "datasets": [
+    "last-fm",
+    "amazon"
+  ],
+  "runs": 670,
+  "requests": 2680000,
+  "exact_score_checks": 1600000,
+  "synthetic_score_checks": 17820
+}

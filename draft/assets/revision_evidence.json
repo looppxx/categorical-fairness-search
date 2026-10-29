@@ -1,0 +1,40 @@
+{
+  "status": "validated",
+  "synthetic_searches": 945,
+  "datasets": [
+    "MovieLens-1M",
+    "LFM360K",
+    "Amazon"
+  ],
+  "dataset_scope": "post hoc; full-grammar support feasibility",
+  "movielens_searches": 420,
+  "additional_dataset_searches": 280,
+  "additional_ablation_cases": 24,
+  "input_source_note": "Original multi-dataset records preserved; paper tables use the explicit dataset subset",
+  "input_sha256": {
+    "outputs\\revision_extension\\existing_protocol.json": "a050fc73021173c66c446d4d4efd0b0a0af442f92301f80828d88c42b08da923",
+    "outputs\\revision_external_complete\\external_protocol.json": "19d9bf5501368c6818cc9b782f9077c52c9cf063ada477ddd8788bf2f6d2304d",
+    "outputs\\manuscript_scope\\trace_validation.json": "b59894f9a90bf169021942f0063ef57f874126d1bb152830e8346898db054245",
+    "outputs\\revision_extension\\movielens_added_results.csv": "afc93e634a84822a235641c3cfa6671d4b5c639bcbe63d077aaaf849dfcfa3fe",
+    "outputs\\revision_extension\\synthetic_added_results.csv": "85bc9b97d39a99a924f88b4ebfd41d43e9603a29b8e9ac01d499a251d69b272c",
+    "outputs\\revision_external_complete\\external_ablation.csv": "0491eb9391e6e108e548d8d6220dd3b2615dc59a1a89ca7df1eb108a40eda1a8",
+    "outputs\\revision_external_complete\\external_confirmation.csv": "440b172230c7c251abb04b80819395394a17edffce86f6411d966467081f010e",
+    "outputs\\revision_external_complete\\external_search_results.csv": "73c67ca9c51a899bdecc409aa4a3c5e2015b413aab992dc20db1df1c16b42f18",
+    "outputs\\revision_external_complete\\external_summary.csv": "2aa2e80a8f44c2ea936f5b7cbca125d0cfcba36c74fe5342ae7a4f1c857c1099",
+    "outputs\\revision_external_complete\\synthetic_summary.csv": "65dba4fc87f6d129fe43d09d334bb43418edef6048214715dddfcd52a6583a7c",
+    "outputs\\revision_external_complete\\external_datasets.json": "c243cd059bacf26e2c0428399ce8e0e56c8ef4153cd96de73f7f5c272b67a73f",
+    "outputs\\manuscript_scope\\external_ablation.csv": "33d56ea4959803d542b0ea0a9b61fb82020280bfdec46e9438a157b4a0619061",
+    "outputs\\manuscript_scope\\external_confirmation.csv": "d81300b26ade8fdf7d2bd68c92c4ddfa7919ffc82b60c231677dc82d653e1846",
+    "outputs\\manuscript_scope\\external_search_results.csv": "d8dab44b6f033655e9a8aaaf651abc7e2599f1bf50c9d9a3e39890ff7eeb03ce",
+    "outputs\\manuscript_scope\\external_summary.csv": "f7108e5d9c299c110fbea09f74529c118a30d35890fdc8d35220b218c164b661",
+    "outputs\\manuscript_scope\\synthetic_summary.csv": "65dba4fc87f6d129fe43d09d334bb43418edef6048214715dddfcd52a6583a7c",
+    "outputs\\manuscript_scope\\external_datasets.json": "76146f1029af11e8a7e470f40ba1aa81974cfc7062e0efef88909f39730106c8",
+    "outputs\\external_utilities_checked\\last-fm\\metadata.json": "11d50d8c9200d03379d3a88bd98922217ce20f8c23a0481261de5a549fb02b63",
+    "outputs\\external_utilities_checked\\amazon\\metadata.json": "37b5a4204a8e239b61426217d4c52ae196061327bfcfb685767425e40ef2ca86",
+    "outputs\\revision_extension\\source_snapshots\\revision_09e6279d84ff3246bd4e4fa48d4dea3e0214157853ec01cde4cef1c6aa2e4141.py": "09e6279d84ff3246bd4e4fa48d4dea3e0214157853ec01cde4cef1c6aa2e4141",
+    "outputs\\revision_extension\\source_snapshots\\revision_34df8e4a72a82b9cf84d1587dfed75fe18bf8d5b59d0319daf8d8ffc73df7ced.py": "34df8e4a72a82b9cf84d1587dfed75fe18bf8d5b59d0319daf8d8ffc73df7ced",
+    "export_external_utilities.py": "e97ded35156a9a49e19e3eb213c92a74b4c092a9e9c00c8e2d63a458ed157e5e",
+    "draft\\build_revision_assets.py": "a823198efd76bb254b6f06aef6847ae7f9f2f8e1e5a089b5f10210a418f7ea06",
+    "fairness_lab\\revision.py": "6cf2a17d1cfac9aa93b9bcdf91ed81fb0d0c0d92e2f810ede5671d2e6fcb8ea4"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "baseline": "outputs\\final_benchmark",
+  "out": "outputs\\conference_extension",
+  "search_seeds": [
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009,
+    1010
+  ],
+  "synthetic_search_seeds": [
+    1001,
+    1002,
+    1003,
+    1004,
+    1005
+  ],
+  "landscape_seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "permutations": 3,
+  "budget": 4000,
+  "population": 20,
+  "min_support": 20,
+  "threshold": 0.02,
+  "synthetic_threshold": 0.65,
+  "threads": 4,
+  "native_source_sha256": "9ebb146bc3be94c209c90421094f2e83cbe2a7b0ddfc2231b9da718bc3db4159",
+  "extension_source_sha256": "ca4bc0823c65b7443d6f966944f8df608a36f8784abc0417749cfcdb8343549d",
+  "empirical_source_sha256": "d8a5e44f823f5470d092336c376bfe6da7a0a6c7720ba276bda50ad6e09cd6e6",
+  "kernel_source_sha256": "3bbe59c2d46ff83acab333325a10fc44e0df740df6d4f8ce54fa4f6b96913ab3",
+  "baseline_config_sha256": "1c69b8bc164f992454a43987f82db4a54dfc1229848f7296253c4a02b64cf188",
+  "user_split_sha256": "11f3959b8283aa31daac89d0e7b55b9086d3ed31cfa5c115fb8b48b9a730dc4a",
+  "torch_version": "2.14.1+cpu",
+  "numpy_version": "2.5.4",
+  "timing": "cached utility scoring + search + in-memory trace; excludes inference and compressed output I/O",
+  "disclosure": "Post hoc extension after examining original results; no test-based tuning; no new training",
+  "pairing": "Independent search seeds crossed with each fixed checkpoint; within-grammar shared challenger starts; native initializer retained"
+}

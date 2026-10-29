@@ -1,0 +1,31 @@
+{
+  "purpose": "Configuration reference, not a runner --config input",
+  "datasets": ["MovieLens-1M", "LFM360K", "Amazon"],
+  "post_hoc": true,
+  "methods": ["DPSO (native)", "GA", "ACO", "DE", "ABC", "SA", "Random"],
+  "search": {
+    "objective_requests": 4000,
+    "population_per_end": 20,
+    "challenger_requests_per_end": 2000,
+    "charge_initialization_duplicates_and_invalids": true,
+    "search_seeds": [1001,1002,1003,1004,1005,1006,1007,1008,1009,1010],
+    "initialization_seed_sequence": "[search_seed, 0]",
+    "challenger_seed_sequence": "[search_seed, 1]",
+    "native_initializer_retained": true
+  },
+  "optimizers": {
+    "GA": {"tournament_size": 3, "uniform_crossover_per_coordinate": 0.5, "mutation_per_coordinate": "1/d", "cached_elites": 1},
+    "ACO": {"initial_trail": 1, "evaporation": 0.2, "ranked_deposit_ants": 6, "deposit": "1/(rank+1)", "trail_bounds": [0.05,20], "uniform_exploration": 0.1, "heuristic": "constant"},
+    "DE": {"variant": "DE/rand/1/bin", "encoding": "bounded random keys, per-attribute argmax", "F": 0.7, "CR": 0.8, "key_bounds": [0,1], "forced_donor_keys": 1, "acceptance": "nonworsening"},
+    "ABC": {"employed_attempts_per_cycle": 20, "onlooker_attempts_per_cycle": 20, "abandonment_limit": 10, "moves": "one-coordinate categorical donor", "acceptance": "strict improvement"},
+    "SA": {"initial_temperature": 0.15, "final_temperature": 0.001, "cooling": "geometric over remaining requests", "moves": "one-coordinate categorical", "acceptance": "Metropolis"},
+    "DPSO": {"backend": "upstream native FairRec", "thermal": 0.09, "cognitive": 2.0, "social": 2.0, "velocity_bounds": [-2,2], "position_conversion": "integer", "request_ledger_stop": true},
+    "Random": {"sampling": "uniform independent category assignments with replacement"}
+  },
+  "real_audit": {"metric": "NDCG@10", "objective": "global mean minus subgroup mean", "minimum_support": 20, "gap_threshold": 0.02, "grammars": ["selected", "unfiltered"], "exact_reference": "one request per grammar cell"},
+  "synthetic": {"families": ["additive", "nk_trap", "interaction"], "landscape_seeds": [2026,2027,2028], "encodings_per_instance": 3, "search_seeds": [1001,1002,1003,1004,1005], "cardinalities": [2,4,3,2,4,3,2,4,3,2,4,3,2,4,3,2,4,3,2,4,3,2,4,3], "threshold": 0.65, "searches": 945},
+  "selector": {"evaluated_method": "backward elimination from complete audit schema", "cv_folds": 3, "scoring": "balanced_accuracy", "encoding": "one-hot inside estimator folds", "estimator": "decision tree", "max_depth": 5, "tolerance": 0.001, "minimum_features": 1, "caps": [2,3], "legacy_top_n": 10, "legacy_filters_reduce_attributes": false},
+  "movielens": {"model": "NeuMF", "model_seeds": [42,100,2026], "embedding_dim": 16, "mlp_widths": [64,32], "learning_rate": 0.001, "batch_size": 1024, "negatives_per_positive": 4, "epoch_cap": 30, "patience": 5, "min_delta": 0.0001, "split_seed": 314159, "development_users": 1810, "audit_users": 4225, "ranking": "full catalog", "support_grid": [20,50,100,200], "target_arms": ["activity proxy", "development utility deficit >= 0.02"], "searches": 420},
+  "additional_datasets": {"datasets": ["last-fm", "amazon"], "model": "supplied frozen DeepFM", "checkpoints_per_dataset": 1, "embedding_dim": 4, "prediction_batch_size": 8192, "tensorflow_threads": [4,1], "candidates_per_user": 50, "relevant_items_per_user": 1, "split_seed": 314159, "development_fraction": 0.30, "discovery_fraction": 0.35, "confirmation": "remaining disjoint users", "support_grid": [5,20,50,100], "selection_target": "development mean utility minus per-user utility >= 0.02", "searches": 280, "ablation_cases": 24},
+  "limitations": ["No general optimizer superiority claim", "No independent mRMR/Chi-square fusion validation", "Amazon groups are behavioral profiles", "Original supplied checkpoint training histories and Amazon category/release are not independently reconstructed"]
+}

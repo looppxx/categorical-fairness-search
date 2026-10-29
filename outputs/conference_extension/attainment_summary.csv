@@ -1,0 +1,91 @@
+grammar,algorithm,requests,optimum_fraction
+selected,DPSO (native),10,0.5
+selected,DPSO (native),20,0.8
+selected,DPSO (native),40,0.9666666666666667
+selected,DPSO (native),80,0.9666666666666667
+selected,DPSO (native),160,0.9666666666666667
+selected,DPSO (native),320,1.0
+selected,DPSO (native),640,1.0
+selected,DPSO (native),1280,1.0
+selected,DPSO (native),4000,1.0
+selected,GA,10,0.8333333333333334
+selected,GA,20,0.9666666666666667
+selected,GA,40,0.9666666666666667
+selected,GA,80,1.0
+selected,GA,160,1.0
+selected,GA,320,1.0
+selected,GA,640,1.0
+selected,GA,1280,1.0
+selected,GA,4000,1.0
+selected,ACO,10,0.8333333333333334
+selected,ACO,20,0.9666666666666667
+selected,ACO,40,0.9666666666666667
+selected,ACO,80,0.9666666666666667
+selected,ACO,160,0.9666666666666667
+selected,ACO,320,0.9666666666666667
+selected,ACO,640,0.9666666666666667
+selected,ACO,1280,1.0
+selected,ACO,4000,1.0
+selected,DE,10,0.8333333333333334
+selected,DE,20,0.9666666666666667
+selected,DE,40,1.0
+selected,DE,80,1.0
+selected,DE,160,1.0
+selected,DE,320,1.0
+selected,DE,640,1.0
+selected,DE,1280,1.0
+selected,DE,4000,1.0
+selected,Random,10,0.8333333333333334
+selected,Random,20,0.9666666666666667
+selected,Random,40,1.0
+selected,Random,80,1.0
+selected,Random,160,1.0
+selected,Random,320,1.0
+selected,Random,640,1.0
+selected,Random,1280,1.0
+selected,Random,4000,1.0
+unfiltered,DPSO (native),10,0.1
+unfiltered,DPSO (native),20,0.3333333333333333
+unfiltered,DPSO (native),40,0.5
+unfiltered,DPSO (native),80,0.5
+unfiltered,DPSO (native),160,0.5333333333333333
+unfiltered,DPSO (native),320,0.6333333333333333
+unfiltered,DPSO (native),640,0.7333333333333333
+unfiltered,DPSO (native),1280,0.8333333333333334
+unfiltered,DPSO (native),4000,0.9333333333333333
+unfiltered,GA,10,0.23333333333333334
+unfiltered,GA,20,0.43333333333333335
+unfiltered,GA,40,0.4666666666666667
+unfiltered,GA,80,0.6666666666666666
+unfiltered,GA,160,0.9333333333333333
+unfiltered,GA,320,0.9666666666666667
+unfiltered,GA,640,1.0
+unfiltered,GA,1280,1.0
+unfiltered,GA,4000,1.0
+unfiltered,ACO,10,0.23333333333333334
+unfiltered,ACO,20,0.43333333333333335
+unfiltered,ACO,40,0.5333333333333333
+unfiltered,ACO,80,0.6333333333333333
+unfiltered,ACO,160,0.8333333333333334
+unfiltered,ACO,320,0.8666666666666667
+unfiltered,ACO,640,0.8666666666666667
+unfiltered,ACO,1280,0.9
+unfiltered,ACO,4000,1.0
+unfiltered,DE,10,0.23333333333333334
+unfiltered,DE,20,0.43333333333333335
+unfiltered,DE,40,0.4666666666666667
+unfiltered,DE,80,0.6
+unfiltered,DE,160,0.7666666666666667
+unfiltered,DE,320,0.9
+unfiltered,DE,640,0.9666666666666667
+unfiltered,DE,1280,1.0
+unfiltered,DE,4000,1.0
+unfiltered,Random,10,0.23333333333333334
+unfiltered,Random,20,0.43333333333333335
+unfiltered,Random,40,0.5333333333333333
+unfiltered,Random,80,0.6666666666666666
+unfiltered,Random,160,0.8333333333333334
+unfiltered,Random,320,0.9333333333333333
+unfiltered,Random,640,1.0
+unfiltered,Random,1280,1.0
+unfiltered,Random,4000,1.0

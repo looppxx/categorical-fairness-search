@@ -1,0 +1,30 @@
+{
+  "model_seed": 100,
+  "grammar": "occupation",
+  "aliases": [
+    "utility_cap2",
+    "utility_cap3"
+  ],
+  "min_support": 50,
+  "algorithm": "ACO",
+  "search_seed": 1002,
+  "maximum_score": 0.02743222427675809,
+  "best_group": [
+    12
+  ],
+  "best_found_query": 1,
+  "requests": 4000,
+  "unique_groups": 21,
+  "invalid_requests": 38,
+  "threshold_groups": 3,
+  "search_seconds": 0.4766541999997571,
+  "objective_sha256": "752dbdf8aadf276adc259b31d0f6251974e5b43b2e1fc2d95726dfc1d4aa5ab4",
+  "exact_optimum": 0.02743222427675809,
+  "regret": 0.0,
+  "optimum_found": true,
+  "valid_cells": 20,
+  "total_cells": 21,
+  "reference_high": 3,
+  "threshold_recall": 1.0,
+  "first_optimum_query": 1
+}

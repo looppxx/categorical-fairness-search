@@ -1,0 +1,26 @@
+{
+  "dataset": "last-fm",
+  "grammar": "selected",
+  "algorithm": "DE",
+  "search_seed": 1001,
+  "maximum_score": 0.1146699042785071,
+  "best_group": [
+    1,
+    17
+  ],
+  "best_found_query": 199,
+  "requests": 4000,
+  "unique_groups": 192,
+  "invalid_requests": 191,
+  "threshold_groups": 31,
+  "search_seconds": 0.6717599000000973,
+  "objective_sha256": "04f1e67d498345d1c005a7d15edce33e74c5a300e0ec4b8934d95e46ccbdbb6a",
+  "exact_optimum": 0.11734814214497025,
+  "regret": 0.002678237866463151,
+  "optimum_found": false,
+  "valid_cells": 135,
+  "total_cells": 478,
+  "reference_high": 46,
+  "threshold_recall": 0.6739130434782609,
+  "first_optimum_query": null
+}

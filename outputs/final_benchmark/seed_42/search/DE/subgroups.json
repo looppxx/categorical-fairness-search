@@ -1,0 +1,429 @@
+[
+  {
+    "subgroup": [
+      5
+    ],
+    "demographic_values": {
+      "age": "50"
+    },
+    "support": 367,
+    "valid": true,
+    "subgroup_utility": 0.031662607690723564,
+    "global_utility": 0.04661510321724691,
+    "disparity": 0.014952495526523349,
+    "expanded_bias": {
+      "calibration_js": {
+        "group_mean": 0.16511255343984718,
+        "global_mean": 0.16664652301986377,
+        "group_minus_global": -0.0015339695800165865,
+        "absolute_disparity": 0.0015339695800165865,
+        "disparity": -0.0015339695800165865,
+        "valid_users": 367,
+        "available": true
+      },
+      "exposure_opportunity_tv": {
+        "group_mean": 0.5055393952169815,
+        "global_mean": 0.49645595945993887,
+        "group_minus_global": 0.00908343575704268,
+        "absolute_disparity": 0.00908343575704268,
+        "disparity": 0.00908343575704268,
+        "valid_users": 367,
+        "available": true
+      },
+      "normalized_popularity": {
+        "group_mean": 0.8204784618112251,
+        "global_mean": 0.8342642804842878,
+        "group_minus_global": -0.013785818673062722,
+        "absolute_disparity": 0.013785818673062722,
+        "disparity": null,
+        "valid_users": 367,
+        "available": true
+      },
+      "long_tail_rate": {
+        "group_mean": 0.12534059945504086,
+        "global_mean": 0.10179881656804735,
+        "group_minus_global": 0.023541782886993518,
+        "absolute_disparity": 0.023541782886993518,
+        "disparity": null,
+        "valid_users": 367,
+        "available": true
+      },
+      "intra_list_diversity": {
+        "group_mean": 0.5906727421502773,
+        "global_mean": 0.6062084950947948,
+        "group_minus_global": -0.015535752944517478,
+        "absolute_disparity": 0.015535752944517478,
+        "disparity": 0.015535752944517478,
+        "valid_users": 367,
+        "available": true
+      }
+    },
+    "audit_sha256": "658b97efab9b4cfb9b3e5f22f8a2722273a45b9ef00119cd2df058b79dd2d037"
+  },
+  {
+    "subgroup": [
+      1
+    ],
+    "demographic_values": {
+      "age": "56"
+    },
+    "support": 276,
+    "valid": true,
+    "subgroup_utility": 0.03712062783277632,
+    "global_utility": 0.04661510321724691,
+    "disparity": 0.00949447538447059,
+    "expanded_bias": {
+      "calibration_js": {
+        "group_mean": 0.1689752264250402,
+        "global_mean": 0.16664652301986377,
+        "group_minus_global": 0.0023287034051764355,
+        "absolute_disparity": 0.0023287034051764355,
+        "disparity": 0.0023287034051764355,
+        "valid_users": 276,
+        "available": true
+      },
+      "exposure_opportunity_tv": {
+        "group_mean": 0.4960188180435082,
+        "global_mean": 0.49645595945993887,
+        "group_minus_global": -0.00043714141643064197,
+        "absolute_disparity": 0.00043714141643064197,
+        "disparity": -0.00043714141643064197,
+        "valid_users": 276,
+        "available": true
+      },
+      "normalized_popularity": {
+        "group_mean": 0.8089669009983889,
+        "global_mean": 0.8342642804842878,
+        "group_minus_global": -0.02529737948589894,
+        "absolute_disparity": 0.02529737948589894,
+        "disparity": null,
+        "valid_users": 276,
+        "available": true
+      },
+      "long_tail_rate": {
+        "group_mean": 0.1608695652173913,
+        "global_mean": 0.10179881656804735,
+        "group_minus_global": 0.059070748649343946,
+        "absolute_disparity": 0.059070748649343946,
+        "disparity": null,
+        "valid_users": 276,
+        "available": true
+      },
+      "intra_list_diversity": {
+        "group_mean": 0.5849675701413235,
+        "global_mean": 0.6062084950947948,
+        "group_minus_global": -0.021240924953471296,
+        "absolute_disparity": 0.021240924953471296,
+        "disparity": 0.021240924953471296,
+        "valid_users": 276,
+        "available": true
+      }
+    },
+    "audit_sha256": "658b97efab9b4cfb9b3e5f22f8a2722273a45b9ef00119cd2df058b79dd2d037"
+  },
+  {
+    "subgroup": [
+      4
+    ],
+    "demographic_values": {
+      "age": "35"
+    },
+    "support": 824,
+    "valid": true,
+    "subgroup_utility": 0.04119477560800001,
+    "global_utility": 0.04661510321724691,
+    "disparity": 0.0054203276092469055,
+    "expanded_bias": {
+      "calibration_js": {
+        "group_mean": 0.16889118310946846,
+        "global_mean": 0.16664652301986377,
+        "group_minus_global": 0.002244660089604694,
+        "absolute_disparity": 0.002244660089604694,
+        "disparity": 0.002244660089604694,
+        "valid_users": 824,
+        "available": true
+      },
+      "exposure_opportunity_tv": {
+        "group_mean": 0.4990427924219197,
+        "global_mean": 0.49645595945993887,
+        "group_minus_global": 0.0025868329619808117,
+        "absolute_disparity": 0.0025868329619808117,
+        "disparity": 0.0025868329619808117,
+        "valid_users": 824,
+        "available": true
+      },
+      "normalized_popularity": {
+        "group_mean": 0.8375815371078431,
+        "global_mean": 0.8342642804842878,
+        "group_minus_global": 0.003317256623555309,
+        "absolute_disparity": 0.003317256623555309,
+        "disparity": null,
+        "valid_users": 824,
+        "available": true
+      },
+      "long_tail_rate": {
+        "group_mean": 0.09126213592233008,
+        "global_mean": 0.10179881656804735,
+        "group_minus_global": -0.010536680645717264,
+        "absolute_disparity": 0.010536680645717264,
+        "disparity": null,
+        "valid_users": 824,
+        "available": true
+      },
+      "intra_list_diversity": {
+        "group_mean": 0.6094838947014073,
+        "global_mean": 0.6062084950947948,
+        "group_minus_global": 0.0032753996066124946,
+        "absolute_disparity": 0.0032753996066124946,
+        "disparity": -0.0032753996066124946,
+        "valid_users": 824,
+        "available": true
+      }
+    },
+    "audit_sha256": "658b97efab9b4cfb9b3e5f22f8a2722273a45b9ef00119cd2df058b79dd2d037"
+  },
+  {
+    "subgroup": [
+      3
+    ],
+    "demographic_values": {
+      "age": "45"
+    },
+    "support": 383,
+    "valid": true,
+    "subgroup_utility": 0.04604396907986362,
+    "global_utility": 0.04661510321724691,
+    "disparity": 0.0005711341373832932,
+    "expanded_bias": {
+      "calibration_js": {
+        "group_mean": 0.16602369242471265,
+        "global_mean": 0.16664652301986377,
+        "group_minus_global": -0.0006228305951511137,
+        "absolute_disparity": 0.0006228305951511137,
+        "disparity": -0.0006228305951511137,
+        "valid_users": 383,
+        "available": true
+      },
+      "exposure_opportunity_tv": {
+        "group_mean": 0.4990033678100771,
+        "global_mean": 0.49645595945993887,
+        "group_minus_global": 0.002547408350138225,
+        "absolute_disparity": 0.002547408350138225,
+        "disparity": 0.002547408350138225,
+        "valid_users": 383,
+        "available": true
+      },
+      "normalized_popularity": {
+        "group_mean": 0.8243742335359211,
+        "global_mean": 0.8342642804842878,
+        "group_minus_global": -0.009890046948366704,
+        "absolute_disparity": 0.009890046948366704,
+        "disparity": null,
+        "valid_users": 383,
+        "available": true
+      },
+      "long_tail_rate": {
+        "group_mean": 0.11853785900783291,
+        "global_mean": 0.10179881656804735,
+        "group_minus_global": 0.016739042439785565,
+        "absolute_disparity": 0.016739042439785565,
+        "disparity": null,
+        "valid_users": 383,
+        "available": true
+      },
+      "intra_list_diversity": {
+        "group_mean": 0.5961180051625425,
+        "global_mean": 0.6062084950947948,
+        "group_minus_global": -0.010090489932252256,
+        "absolute_disparity": 0.010090489932252256,
+        "disparity": 0.010090489932252256,
+        "valid_users": 383,
+        "available": true
+      }
+    },
+    "audit_sha256": "658b97efab9b4cfb9b3e5f22f8a2722273a45b9ef00119cd2df058b79dd2d037"
+  },
+  {
+    "subgroup": [
+      0
+    ],
+    "demographic_values": {
+      "age": "1"
+    },
+    "support": 145,
+    "valid": true,
+    "subgroup_utility": 0.046419537114838774,
+    "global_utility": 0.04661510321724691,
+    "disparity": 0.0001955661024081387,
+    "expanded_bias": {
+      "calibration_js": {
+        "group_mean": 0.16061602548125378,
+        "global_mean": 0.16664652301986377,
+        "group_minus_global": -0.006030497538609986,
+        "absolute_disparity": 0.006030497538609986,
+        "disparity": -0.006030497538609986,
+        "valid_users": 145,
+        "available": true
+      },
+      "exposure_opportunity_tv": {
+        "group_mean": 0.5281675193815363,
+        "global_mean": 0.49645595945993887,
+        "group_minus_global": 0.03171155992159741,
+        "absolute_disparity": 0.03171155992159741,
+        "disparity": 0.03171155992159741,
+        "valid_users": 145,
+        "available": true
+      },
+      "normalized_popularity": {
+        "group_mean": 0.8021574293976537,
+        "global_mean": 0.8342642804842878,
+        "group_minus_global": -0.032106851086634136,
+        "absolute_disparity": 0.032106851086634136,
+        "disparity": null,
+        "valid_users": 145,
+        "available": true
+      },
+      "long_tail_rate": {
+        "group_mean": 0.18206896551724142,
+        "global_mean": 0.10179881656804735,
+        "group_minus_global": 0.08027014894919407,
+        "absolute_disparity": 0.08027014894919407,
+        "disparity": null,
+        "valid_users": 145,
+        "available": true
+      },
+      "intra_list_diversity": {
+        "group_mean": 0.5837123426088009,
+        "global_mean": 0.6062084950947948,
+        "group_minus_global": -0.022496152485993903,
+        "absolute_disparity": 0.022496152485993903,
+        "disparity": 0.022496152485993903,
+        "valid_users": 145,
+        "available": true
+      }
+    },
+    "audit_sha256": "658b97efab9b4cfb9b3e5f22f8a2722273a45b9ef00119cd2df058b79dd2d037"
+  },
+  {
+    "subgroup": [
+      2
+    ],
+    "demographic_values": {
+      "age": "25"
+    },
+    "support": 1473,
+    "valid": true,
+    "subgroup_utility": 0.04820121856075785,
+    "global_utility": 0.04661510321724691,
+    "disparity": -0.001586115343510934,
+    "expanded_bias": {
+      "calibration_js": {
+        "group_mean": 0.1665640608048519,
+        "global_mean": 0.16664652301986377,
+        "group_minus_global": -8.246221501187478e-05,
+        "absolute_disparity": 8.246221501187478e-05,
+        "disparity": -8.246221501187478e-05,
+        "valid_users": 1473,
+        "available": true
+      },
+      "exposure_opportunity_tv": {
+        "group_mean": 0.4907925175384426,
+        "global_mean": 0.49645595945993887,
+        "group_minus_global": -0.0056634419214962595,
+        "absolute_disparity": 0.0056634419214962595,
+        "disparity": -0.0056634419214962595,
+        "valid_users": 1473,
+        "available": true
+      },
+      "normalized_popularity": {
+        "group_mean": 0.8442636419549829,
+        "global_mean": 0.8342642804842878,
+        "group_minus_global": 0.009999361470695134,
+        "absolute_disparity": 0.009999361470695134,
+        "disparity": null,
+        "valid_users": 1473,
+        "available": true
+      },
+      "long_tail_rate": {
+        "group_mean": 0.08160217243720298,
+        "global_mean": 0.10179881656804735,
+        "group_minus_global": -0.020196644130844363,
+        "absolute_disparity": 0.020196644130844363,
+        "disparity": null,
+        "valid_users": 1473,
+        "available": true
+      },
+      "intra_list_diversity": {
+        "group_mean": 0.614715781596401,
+        "global_mean": 0.6062084950947948,
+        "group_minus_global": 0.008507286501606148,
+        "absolute_disparity": 0.008507286501606148,
+        "disparity": -0.008507286501606148,
+        "valid_users": 1473,
+        "available": true
+      }
+    },
+    "audit_sha256": "658b97efab9b4cfb9b3e5f22f8a2722273a45b9ef00119cd2df058b79dd2d037"
+  },
+  {
+    "subgroup": [
+      6
+    ],
+    "demographic_values": {
+      "age": "18"
+    },
+    "support": 757,
+    "valid": true,
+    "subgroup_utility": 0.060466020750724825,
+    "global_utility": 0.04661510321724691,
+    "disparity": -0.013850917533477912,
+    "expanded_bias": {
+      "calibration_js": {
+        "group_mean": 0.16572852815322825,
+        "global_mean": 0.16664652301986377,
+        "group_minus_global": -0.0009179948666355187,
+        "absolute_disparity": 0.0009179948666355187,
+        "disparity": -0.0009179948666355187,
+        "valid_users": 757,
+        "available": true
+      },
+      "exposure_opportunity_tv": {
+        "group_mean": 0.4930529160135153,
+        "global_mean": 0.49645595945993887,
+        "group_minus_global": -0.0034030434464235593,
+        "absolute_disparity": 0.0034030434464235593,
+        "disparity": -0.0034030434464235593,
+        "valid_users": 757,
+        "available": true
+      },
+      "normalized_popularity": {
+        "group_mean": 0.8382568494086802,
+        "global_mean": 0.8342642804842878,
+        "group_minus_global": 0.00399256892439237,
+        "absolute_disparity": 0.00399256892439237,
+        "disparity": null,
+        "valid_users": 757,
+        "available": true
+      },
+      "long_tail_rate": {
+        "group_mean": 0.09577278731836196,
+        "global_mean": 0.10179881656804735,
+        "group_minus_global": -0.006026029249685386,
+        "absolute_disparity": 0.006026029249685386,
+        "disparity": null,
+        "valid_users": 757,
+        "available": true
+      },
+      "intra_list_diversity": {
+        "group_mean": 0.6107799007481681,
+        "global_mean": 0.6062084950947948,
+        "group_minus_global": 0.004571405653373328,
+        "absolute_disparity": 0.004571405653373328,
+        "disparity": -0.004571405653373328,
+        "valid_users": 757,
+        "available": true
+      }
+    },
+    "audit_sha256": "658b97efab9b4cfb9b3e5f22f8a2722273a45b9ef00119cd2df058b79dd2d037"
+  }
+]

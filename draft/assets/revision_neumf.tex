@@ -1,0 +1,26 @@
+\begin{table}[t]
+\centering
+\caption{MovieLens: 30 searches per method/grammar (ten seeds on three fixed models). Hit is exact-optimum attainment; recall is the fraction of supported above-threshold cells recovered, omitting cases with no such cells. Query is median first optimum request among successful searches. Timings from the earlier and indexed implementations are not pooled.}
+\label{tab:extended-neumf}
+\small
+\begin{tabular}{llrrrr}
+\toprule
+Space & Method & Hit\% & Regret & Rec.\% & Query \\
+\midrule
+Sel. & DPSO & 100 & 0.00000 & 100.0 & 11.0 \\
+Sel. & GA & 100 & 0.00000 & 100.0 & 4.0 \\
+Sel. & ACO & 100 & 0.00000 & 100.0 & 4.0 \\
+Sel. & DE & 100 & 0.00000 & 100.0 & 4.0 \\
+Sel. & ABC & 100 & 0.00000 & 100.0 & 4.0 \\
+Sel. & SA & 100 & 0.00000 & 100.0 & 4.0 \\
+Sel. & Random & 100 & 0.00000 & 100.0 & 4.0 \\
+Full & DPSO & 93 & 0.00077 & 64.6 & 32.0 \\
+Full & GA & 100 & 0.00000 & 99.6 & 44.0 \\
+Full & ACO & 100 & 0.00000 & 90.3 & 31.0 \\
+Full & DE & 100 & 0.00000 & 89.0 & 51.5 \\
+Full & ABC & 100 & 0.00000 & 99.8 & 37.0 \\
+Full & SA & 100 & 0.00000 & 95.2 & 31.5 \\
+Full & Random & 100 & 0.00000 & 100.0 & 36.0 \\
+\bottomrule
+\end{tabular}
+\end{table}

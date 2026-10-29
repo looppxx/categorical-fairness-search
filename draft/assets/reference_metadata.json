@@ -1,0 +1,705 @@
+{
+  "guo2023fairrec": {
+    "DOI": "10.1145/3597926.3598058",
+    "title": [
+      "FairRec: Fairness Testing for Deep Recommender Systems"
+    ],
+    "subtitle": [],
+    "author": [
+      {
+        "given": "Huizhong",
+        "family": "Guo",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Zhejiang University, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jinfeng",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Alibaba Group, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jingyi",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Zhejiang University, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiangyu",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Alibaba Group, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dongxia",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Zhejiang University, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zehong",
+        "family": "Hu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Alibaba Group, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Rong",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Alibaba Group, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hui",
+        "family": "Xue",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Alibaba Group, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          7,
+          12
+        ]
+      ]
+    },
+    "container-title": [
+      "Proceedings of the 32nd ACM SIGSOFT International Symposium on Software Testing and Analysis"
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "310-321"
+  },
+  "wu2025fairas": {
+    "DOI": "10.1145/3728948",
+    "title": [
+      "No Bias Left Behind: Fairness Testing for Deep Recommender Systems Targeting General Disadvantaged Groups"
+    ],
+    "subtitle": [],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0006-0165-8746",
+        "authenticated-orcid": false,
+        "given": "Zhuo",
+        "family": "Wu",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Tianjin University, Tianjin, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6173-8170",
+        "authenticated-orcid": false,
+        "given": "Zan",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Tianjin University, Tianjin, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5028-1064",
+        "authenticated-orcid": false,
+        "given": "Chuan",
+        "family": "Luo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Beihang University, Beijing, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3728-9541",
+        "authenticated-orcid": false,
+        "given": "Xiaoning",
+        "family": "Du",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Monash University, Melbourne, Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3056-9962",
+        "authenticated-orcid": false,
+        "given": "Junjie",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Tianjin University, Tianjin, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          22
+        ]
+      ]
+    },
+    "container-title": [
+      "Proceedings of the ACM on Software Engineering"
+    ],
+    "volume": "2",
+    "issue": "ISSTA",
+    "page": "1607-1629"
+  },
+  "he2017ncf": {
+    "DOI": "10.1145/3038912.3052569",
+    "title": [
+      "Neural Collaborative Filtering"
+    ],
+    "subtitle": [],
+    "author": [
+      {
+        "given": "Xiangnan",
+        "family": "He",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "National University of Singapore, Singapore, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lizi",
+        "family": "Liao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National University of Singapore, Singapore, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hanwang",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Columbia University, New York City, NY, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Liqiang",
+        "family": "Nie",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Shandong University, Ji Nan, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xia",
+        "family": "Hu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Texas A&amp;M University, College Station, TX, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tat-Seng",
+        "family": "Chua",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National University of Singapore, Singapore, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2017,
+          4,
+          3
+        ]
+      ]
+    },
+    "container-title": [
+      "Proceedings of the 26th International Conference on World Wide Web"
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "173-182"
+  },
+  "peng2005mrmr": {
+    "DOI": "10.1109/tpami.2005.159",
+    "title": [
+      "Feature selection based on mutual information criteria of max-dependency, max-relevance, and min-redundancy"
+    ],
+    "subtitle": [],
+    "author": [
+      {
+        "family": "Hanchuan Peng",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "family": "Fuhui Long",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "C.",
+        "family": "Ding",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2005,
+          8
+        ]
+      ]
+    },
+    "container-title": [
+      "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+    ],
+    "volume": "27",
+    "issue": "8",
+    "page": "1226-1238"
+  },
+  "harper2015movielens": {
+    "DOI": "10.1145/2827872",
+    "title": [
+      "The MovieLens Datasets"
+    ],
+    "subtitle": [
+      "History and Context"
+    ],
+    "author": [
+      {
+        "given": "F. Maxwell",
+        "family": "Harper",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of Minnesota, Minneapolis, MN"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Joseph A.",
+        "family": "Konstan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Minnesota, Minneapolis, MN"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2015,
+          12,
+          22
+        ]
+      ]
+    },
+    "container-title": [
+      "ACM Transactions on Interactive Intelligent Systems"
+    ],
+    "volume": "5",
+    "issue": "4",
+    "page": "1-19"
+  },
+  "steck2018calibration": {
+    "DOI": "10.1145/3240323.3240372",
+    "title": [
+      "Calibrated recommendations"
+    ],
+    "subtitle": [],
+    "author": [
+      {
+        "given": "Harald",
+        "family": "Steck",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Netflix"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2018,
+          9,
+          27
+        ]
+      ]
+    },
+    "container-title": [
+      "Proceedings of the 12th ACM Conference on Recommender Systems"
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "154-162"
+  },
+  "dorigo1996ants": {
+    "DOI": "10.1109/3477.484436",
+    "title": [
+      "Ant system: optimization by a colony of cooperating agents"
+    ],
+    "subtitle": [],
+    "author": [
+      {
+        "given": "M.",
+        "family": "Dorigo",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "V.",
+        "family": "Maniezzo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A.",
+        "family": "Colorni",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          1996,
+          2
+        ]
+      ]
+    },
+    "container-title": [
+      "IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics)"
+    ],
+    "volume": "26",
+    "issue": "1",
+    "page": "29-41"
+  },
+  "singh2018exposure": {
+    "DOI": "10.1145/3219819.3220088",
+    "title": [
+      "Fairness of Exposure in Rankings"
+    ],
+    "subtitle": [],
+    "author": [
+      {
+        "given": "Ashudeep",
+        "family": "Singh",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Cornell University, Ithaca, NY, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Thorsten",
+        "family": "Joachims",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Cornell University, Ithaca, NY, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2018,
+          7,
+          19
+        ]
+      ]
+    },
+    "container-title": [
+      "Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining"
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "2219-2228"
+  },
+  "storn1997de": {
+    "DOI": "10.1023/a:1008202821328",
+    "title": [
+      "Differential Evolution \u2013 A Simple and Efficient Heuristic for global Optimization over Continuous Spaces"
+    ],
+    "subtitle": [],
+    "author": [
+      {
+        "given": "Rainer",
+        "family": "Storn",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kenneth",
+        "family": "Price",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          1997,
+          12
+        ]
+      ]
+    },
+    "container-title": [
+      "Journal of Global Optimization"
+    ],
+    "volume": "11",
+    "issue": "4",
+    "page": "341-359"
+  }
+}

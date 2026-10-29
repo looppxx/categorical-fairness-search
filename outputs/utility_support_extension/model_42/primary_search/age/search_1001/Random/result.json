@@ -1,0 +1,31 @@
+{
+  "model_seed": 42,
+  "grammar": "age",
+  "aliases": [
+    "activity_cap2",
+    "utility_cap2",
+    "utility_cap3"
+  ],
+  "min_support": 50,
+  "algorithm": "Random",
+  "search_seed": 1001,
+  "maximum_score": 0.014952495526523349,
+  "best_group": [
+    5
+  ],
+  "best_found_query": 3,
+  "requests": 4000,
+  "unique_groups": 7,
+  "invalid_requests": 0,
+  "threshold_groups": 0,
+  "search_seconds": 0.4370247999904677,
+  "objective_sha256": "9904e7f3d2102f0f3cf222057cdb211410dc6b0b0ba38eb4a219c4cd76f811fb",
+  "exact_optimum": 0.014952495526523349,
+  "regret": 0.0,
+  "optimum_found": true,
+  "valid_cells": 7,
+  "total_cells": 7,
+  "reference_high": 0,
+  "threshold_recall": null,
+  "first_optimum_query": 3
+}

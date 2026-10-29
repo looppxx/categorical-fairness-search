@@ -1,0 +1,30 @@
+{
+  "model_seed": 100,
+  "grammar": "age",
+  "aliases": [
+    "activity_cap2",
+    "activity_cap3"
+  ],
+  "min_support": 50,
+  "algorithm": "ACO",
+  "search_seed": 1001,
+  "maximum_score": 0.014842484113192254,
+  "best_group": [
+    5
+  ],
+  "best_found_query": 3,
+  "requests": 4000,
+  "unique_groups": 7,
+  "invalid_requests": 0,
+  "threshold_groups": 0,
+  "search_seconds": 0.6440894999541342,
+  "objective_sha256": "58b4d2e4638f1297cd753060404b3e53468a3e92e9fec0766c501bf94e0d213e",
+  "exact_optimum": 0.014842484113192254,
+  "regret": 0.0,
+  "optimum_found": true,
+  "valid_cells": 7,
+  "total_cells": 7,
+  "reference_high": 0,
+  "threshold_recall": null,
+  "first_optimum_query": 3
+}

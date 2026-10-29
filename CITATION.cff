@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this code or the recorded study artifacts, cite this repository and the accompanying manuscript."
+title: "Categorical Fairness Search"
+type: software
+repository-code: "https://github.com/looppxx/categorical-fairness-search"
+url: "https://github.com/looppxx/categorical-fairness-search"
+authors:
+  - family-names: Loo
+    given-names: Pei Xin
+  - family-names: Balogun
+    given-names: Abdullateef Oluwagbemiga
+  - family-names: Hashim
+    given-names: Ahmad Sobri
+  - family-names: Mamman
+    given-names: Hussaini
+abstract: "Controlled empirical investigation of categorical subgroup search and feature-selection effects in recommender-system fairness testing."
+keywords:
+  - recommender systems
+  - fairness testing
+  - categorical search
+  - subgroup discovery
+  - feature selection

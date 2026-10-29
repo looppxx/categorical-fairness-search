@@ -1,0 +1,63 @@
+{
+  "subgroup": [
+    0,
+    0
+  ],
+  "demographic_values": {
+    "gender": "F",
+    "age": "1"
+  },
+  "support": 52,
+  "valid": true,
+  "subgroup_utility": 0.008282241501411405,
+  "global_utility": 0.04497354997296791,
+  "disparity": 0.03669130847155651,
+  "expanded_bias": {
+    "calibration_js": {
+      "group_mean": 0.16365394884213777,
+      "global_mean": 0.17187023480743524,
+      "group_minus_global": -0.00821628596529747,
+      "absolute_disparity": 0.00821628596529747,
+      "disparity": -0.00821628596529747,
+      "valid_users": 52,
+      "available": true
+    },
+    "exposure_opportunity_tv": {
+      "group_mean": 0.5266053497823716,
+      "global_mean": 0.49743184217360287,
+      "group_minus_global": 0.029173507608768745,
+      "absolute_disparity": 0.029173507608768745,
+      "disparity": 0.029173507608768745,
+      "valid_users": 52,
+      "available": true
+    },
+    "normalized_popularity": {
+      "group_mean": 0.8038260143620874,
+      "global_mean": 0.8501502192906449,
+      "group_minus_global": -0.04632420492855749,
+      "absolute_disparity": 0.04632420492855749,
+      "disparity": null,
+      "valid_users": 52,
+      "available": true
+    },
+    "long_tail_rate": {
+      "group_mean": 0.17307692307692307,
+      "global_mean": 0.05396449704142012,
+      "group_minus_global": 0.11911242603550296,
+      "absolute_disparity": 0.11911242603550296,
+      "disparity": null,
+      "valid_users": 52,
+      "available": true
+    },
+    "intra_list_diversity": {
+      "group_mean": 0.5513406624644965,
+      "global_mean": 0.5966528822921716,
+      "group_minus_global": -0.04531221982767508,
+      "absolute_disparity": 0.04531221982767508,
+      "disparity": 0.04531221982767508,
+      "valid_users": 52,
+      "available": true
+    }
+  },
+  "audit_sha256": "26aab3d6af8289a31130ca6695b2030e6b85b35c70876b325b1799f446f96ea7"
+}

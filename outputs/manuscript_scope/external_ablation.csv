@@ -1,0 +1,25 @@
+dataset,arm,min_support,features,total_cells,valid_cells,maximum_gap,high_full_cells,retained_full_cells,parent_threshold_retention
+last-fm,utility_cap2,5,"[""gender"", ""country""]",478,224,0.2750226234905944,824,266,0.3228155339805825
+last-fm,utility_cap3,5,"[""gender"", ""country""]",478,224,0.2750226234905944,824,266,0.3228155339805825
+last-fm,unfiltered,5,"[""gender"", ""age"", ""country""]",53058,2012,0.4649250938366871,824,824,1.0
+last-fm,utility_cap2,20,"[""gender"", ""country""]",478,135,0.1173481421449702,323,115,0.3560371517027864
+last-fm,utility_cap3,20,"[""gender"", ""country""]",478,135,0.1173481421449702,323,115,0.3560371517027864
+last-fm,unfiltered,20,"[""gender"", ""age"", ""country""]",53058,894,0.2511145044378625,323,323,1.0
+last-fm,utility_cap2,50,"[""gender"", ""country""]",478,111,0.1146699042785071,134,46,0.3432835820895522
+last-fm,utility_cap3,50,"[""gender"", ""country""]",478,111,0.1146699042785071,134,46,0.3432835820895522
+last-fm,unfiltered,50,"[""gender"", ""age"", ""country""]",53058,410,0.1471961831791824,134,134,1.0
+last-fm,utility_cap2,100,"[""gender"", ""country""]",478,86,0.1146699042785071,57,17,0.2982456140350877
+last-fm,utility_cap3,100,"[""gender"", ""country""]",478,86,0.1146699042785071,57,17,0.2982456140350877
+last-fm,unfiltered,100,"[""gender"", ""age"", ""country""]",53058,206,0.0939972679698075,57,57,1.0
+amazon,utility_cap2,5,"[""his_level"", ""max_price_level""]",100,100,0.0878058375395546,104,17,0.1634615384615384
+amazon,utility_cap3,5,"[""his_level"", ""max_price_level""]",100,100,0.0878058375395546,104,17,0.1634615384615384
+amazon,unfiltered,5,"[""his_level"", ""mean_price_level"", ""max_price_level""]",1000,366,0.2824378255200351,104,104,1.0
+amazon,utility_cap2,20,"[""his_level"", ""max_price_level""]",100,99,0.0878058375395546,84,15,0.1785714285714285
+amazon,utility_cap3,20,"[""his_level"", ""max_price_level""]",100,99,0.0878058375395546,84,15,0.1785714285714285
+amazon,unfiltered,20,"[""his_level"", ""mean_price_level"", ""max_price_level""]",1000,325,0.1698751966363563,84,84,1.0
+amazon,utility_cap2,50,"[""his_level"", ""max_price_level""]",100,99,0.0878058375395546,67,12,0.1791044776119403
+amazon,utility_cap3,50,"[""his_level"", ""max_price_level""]",100,99,0.0878058375395546,67,12,0.1791044776119403
+amazon,unfiltered,50,"[""his_level"", ""mean_price_level"", ""max_price_level""]",1000,279,0.1213249778569945,67,67,1.0
+amazon,utility_cap2,100,"[""his_level"", ""max_price_level""]",100,97,0.0505126826832141,50,10,0.2
+amazon,utility_cap3,100,"[""his_level"", ""max_price_level""]",100,97,0.0505126826832141,50,10,0.2
+amazon,unfiltered,100,"[""his_level"", ""mean_price_level"", ""max_price_level""]",1000,229,0.0782151250616444,50,50,1.0

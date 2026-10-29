@@ -1,0 +1,74 @@
+[
+  {
+    "dataset": "last-fm",
+    "total_users": 267034,
+    "development_users": 80110,
+    "discovery_users": 93461,
+    "confirmation_users": 93463,
+    "rows": 13351700,
+    "attributes": [
+      "gender",
+      "age",
+      "country"
+    ],
+    "cardinalities": [
+      2,
+      111,
+      239
+    ],
+    "candidate_min": 50,
+    "candidate_max": 50,
+    "global_discovery_ndcg": 0.7632816947410048,
+    "checkpoint_replicates": 1
+  },
+  {
+    "dataset": "black-fri",
+    "total_users": 5891,
+    "development_users": 1767,
+    "discovery_users": 2061,
+    "confirmation_users": 2063,
+    "rows": 294550,
+    "attributes": [
+      "gender",
+      "age",
+      "occupation",
+      "city",
+      "stay_years",
+      "martial_status"
+    ],
+    "cardinalities": [
+      2,
+      7,
+      21,
+      3,
+      5,
+      2
+    ],
+    "candidate_min": 50,
+    "candidate_max": 50,
+    "global_discovery_ndcg": 0.47291207474344843,
+    "checkpoint_replicates": 1
+  },
+  {
+    "dataset": "amazon",
+    "total_users": 175878,
+    "development_users": 52763,
+    "discovery_users": 61557,
+    "confirmation_users": 61558,
+    "rows": 8793900,
+    "attributes": [
+      "his_level",
+      "mean_price_level",
+      "max_price_level"
+    ],
+    "cardinalities": [
+      10,
+      10,
+      10
+    ],
+    "candidate_min": 50,
+    "candidate_max": 50,
+    "global_discovery_ndcg": 0.43177363170505006,
+    "checkpoint_replicates": 1
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "model_seed": 42,
+  "grammar": "gender,age,occupation",
+  "aliases": [
+    "activity_cap3",
+    "unfiltered"
+  ],
+  "min_support": 50,
+  "algorithm": "DPSO (native)",
+  "search_seed": 1002,
+  "maximum_score": 0.033041320507262995,
+  "best_group": [
+    1,
+    4,
+    8
+  ],
+  "best_found_query": 13,
+  "requests": 4000,
+  "unique_groups": 143,
+  "invalid_requests": 2145,
+  "threshold_groups": 5,
+  "search_seconds": 0.21157689997926354,
+  "objective_sha256": "1fc37cb82c05aff2e3fa3dad142953c7a970fcf6dcd40104f2a0d78cb34cfadf",
+  "exact_optimum": 0.034665336257755947,
+  "regret": 0.001624015750492952,
+  "optimum_found": false,
+  "valid_cells": 19,
+  "total_cells": 294,
+  "reference_high": 6,
+  "threshold_recall": 0.8333333333333334,
+  "first_optimum_query": null
+}

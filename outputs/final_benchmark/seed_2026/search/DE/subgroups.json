@@ -1,0 +1,884 @@
+[
+  {
+    "subgroup": [
+      0,
+      0
+    ],
+    "demographic_values": {
+      "gender": "F",
+      "age": "1"
+    },
+    "support": 52,
+    "valid": true,
+    "subgroup_utility": 0.008282241501411405,
+    "global_utility": 0.04497354997296791,
+    "disparity": 0.03669130847155651,
+    "expanded_bias": {
+      "calibration_js": {
+        "group_mean": 0.16365394884213777,
+        "global_mean": 0.17187023480743524,
+        "group_minus_global": -0.00821628596529747,
+        "absolute_disparity": 0.00821628596529747,
+        "disparity": -0.00821628596529747,
+        "valid_users": 52,
+        "available": true
+      },
+      "exposure_opportunity_tv": {
+        "group_mean": 0.5266053497823716,
+        "global_mean": 0.49743184217360287,
+        "group_minus_global": 0.029173507608768745,
+        "absolute_disparity": 0.029173507608768745,
+        "disparity": 0.029173507608768745,
+        "valid_users": 52,
+        "available": true
+      },
+      "normalized_popularity": {
+        "group_mean": 0.8038260143620874,
+        "global_mean": 0.8501502192906449,
+        "group_minus_global": -0.04632420492855749,
+        "absolute_disparity": 0.04632420492855749,
+        "disparity": null,
+        "valid_users": 52,
+        "available": true
+      },
+      "long_tail_rate": {
+        "group_mean": 0.17307692307692307,
+        "global_mean": 0.05396449704142012,
+        "group_minus_global": 0.11911242603550296,
+        "absolute_disparity": 0.11911242603550296,
+        "disparity": null,
+        "valid_users": 52,
+        "available": true
+      },
+      "intra_list_diversity": {
+        "group_mean": 0.5513406624644965,
+        "global_mean": 0.5966528822921716,
+        "group_minus_global": -0.04531221982767508,
+        "absolute_disparity": 0.04531221982767508,
+        "disparity": 0.04531221982767508,
+        "valid_users": 52,
+        "available": true
+      }
+    },
+    "audit_sha256": "26aab3d6af8289a31130ca6695b2030e6b85b35c70876b325b1799f446f96ea7"
+  },
+  {
+    "subgroup": [
+      1,
+      1
+    ],
+    "demographic_values": {
+      "gender": "M",
+      "age": "56"
+    },
+    "support": 198,
+    "valid": true,
+    "subgroup_utility": 0.028234978842676357,
+    "global_utility": 0.04497354997296791,
+    "disparity": 0.016738571130291553,
+    "expanded_bias": {
+      "calibration_js": {
+        "group_mean": 0.17745398601346277,
+        "global_mean": 0.17187023480743524,
+        "group_minus_global": 0.005583751206027526,
+        "absolute_disparity": 0.005583751206027526,
+        "disparity": 0.005583751206027526,
+        "valid_users": 198,
+        "available": true
+      },
+      "exposure_opportunity_tv": {
+        "group_mean": 0.4918632774302497,
+        "global_mean": 0.49743184217360287,
+        "group_minus_global": -0.005568564743353155,
+        "absolute_disparity": 0.005568564743353155,
+        "disparity": -0.005568564743353155,
+        "valid_users": 198,
+        "available": true
+      },
+      "normalized_popularity": {
+        "group_mean": 0.8339145690996991,
+        "global_mean": 0.8501502192906449,
+        "group_minus_global": -0.01623565019094586,
+        "absolute_disparity": 0.01623565019094586,
+        "disparity": null,
+        "valid_users": 198,
+        "available": true
+      },
+      "long_tail_rate": {
+        "group_mean": 0.09191919191919191,
+        "global_mean": 0.05396449704142012,
+        "group_minus_global": 0.0379546948777718,
+        "absolute_disparity": 0.0379546948777718,
+        "disparity": null,
+        "valid_users": 198,
+        "available": true
+      },
+      "intra_list_diversity": {
+        "group_mean": 0.5922213598787189,
+        "global_mean": 0.5966528822921716,
+        "group_minus_global": -0.004431522413452682,
+        "absolute_disparity": 0.004431522413452682,
+        "disparity": 0.004431522413452682,
+        "valid_users": 198,
+        "available": true
+      }
+    },
+    "audit_sha256": "26aab3d6af8289a31130ca6695b2030e6b85b35c70876b325b1799f446f96ea7"
+  },
+  {
+    "subgroup": [
+      0,
+      1
+    ],
+    "demographic_values": {
+      "gender": "F",
+      "age": "56"
+    },
+    "support": 78,
+    "valid": true,
+    "subgroup_utility": 0.02826130990439072,
+    "global_utility": 0.04497354997296791,
+    "disparity": 0.01671224006857719,
+    "expanded_bias": {
+      "calibration_js": {
+        "group_mean": 0.17029830775399776,
+        "global_mean": 0.17187023480743524,
+        "group_minus_global": -0.0015719270534374774,
+        "absolute_disparity": 0.0015719270534374774,
+        "disparity": -0.0015719270534374774,
+        "valid_users": 78,
+        "available": true
+      },
+      "exposure_opportunity_tv": {
+        "group_mean": 0.48352448217133015,
+        "global_mean": 0.49743184217360287,
+        "group_minus_global": -0.013907360002272717,
+        "absolute_disparity": 0.013907360002272717,
+        "disparity": -0.013907360002272717,
+        "valid_users": 78,
+        "available": true
+      },
+      "normalized_popularity": {
+        "group_mean": 0.8264171929275914,
+        "global_mean": 0.8501502192906449,
+        "group_minus_global": -0.023733026363053522,
+        "absolute_disparity": 0.023733026363053522,
+        "disparity": null,
+        "valid_users": 78,
+        "available": true
+      },
+      "long_tail_rate": {
+        "group_mean": 0.08974358974358974,
+        "global_mean": 0.05396449704142012,
+        "group_minus_global": 0.035779092702169626,
+        "absolute_disparity": 0.035779092702169626,
+        "disparity": null,
+        "valid_users": 78,
+        "available": true
+      },
+      "intra_list_diversity": {
+        "group_mean": 0.5580575332354464,
+        "global_mean": 0.5966528822921716,
+        "group_minus_global": -0.03859534905672524,
+        "absolute_disparity": 0.03859534905672524,
+        "disparity": 0.03859534905672524,
+        "valid_users": 78,
+        "available": true
+      }
+    },
+    "audit_sha256": "26aab3d6af8289a31130ca6695b2030e6b85b35c70876b325b1799f446f96ea7"
+  },
+  {
+    "subgroup": [
+      1,
+      0
+    ],
+    "demographic_values": {
+      "gender": "M",
+      "age": "1"
+    },
+    "support": 93,
+    "valid": true,
+    "subgroup_utility": 0.03029123235625097,
+    "global_utility": 0.04497354997296791,
+    "disparity": 0.014682317616716938,
+    "expanded_bias": {
+      "calibration_js": {
+        "group_mean": 0.17069927532625584,
+        "global_mean": 0.17187023480743524,
+        "group_minus_global": -0.001170959481179401,
+        "absolute_disparity": 0.001170959481179401,
+        "disparity": -0.001170959481179401,
+        "valid_users": 93,
+        "available": true
+      },
+      "exposure_opportunity_tv": {
+        "group_mean": 0.5233670197862746,
+        "global_mean": 0.49743184217360287,
+        "group_minus_global": 0.025935177612671778,
+        "absolute_disparity": 0.025935177612671778,
+        "disparity": 0.025935177612671778,
+        "valid_users": 93,
+        "available": true
+      },
+      "normalized_popularity": {
+        "group_mean": 0.8424006079706411,
+        "global_mean": 0.8501502192906449,
+        "group_minus_global": -0.007749611320003846,
+        "absolute_disparity": 0.007749611320003846,
+        "disparity": null,
+        "valid_users": 93,
+        "available": true
+      },
+      "long_tail_rate": {
+        "group_mean": 0.0924731182795699,
+        "global_mean": 0.05396449704142012,
+        "group_minus_global": 0.038508621238149784,
+        "absolute_disparity": 0.038508621238149784,
+        "disparity": null,
+        "valid_users": 93,
+        "available": true
+      },
+      "intra_list_diversity": {
+        "group_mean": 0.5873370698749618,
+        "global_mean": 0.5966528822921716,
+        "group_minus_global": -0.009315812417209801,
+        "absolute_disparity": 0.009315812417209801,
+        "disparity": 0.009315812417209801,
+        "valid_users": 93,
+        "available": true
+      }
+    },
+    "audit_sha256": "26aab3d6af8289a31130ca6695b2030e6b85b35c70876b325b1799f446f96ea7"
+  },
+  {
+    "subgroup": [
+      1,
+      5
+    ],
+    "demographic_values": {
+      "gender": "M",
+      "age": "50"
+    },
+    "support": 267,
+    "valid": true,
+    "subgroup_utility": 0.03360635770086423,
+    "global_utility": 0.04497354997296791,
+    "disparity": 0.011367192272103678,
+    "expanded_bias": {
+      "calibration_js": {
+        "group_mean": 0.1716366504030893,
+        "global_mean": 0.17187023480743524,
+        "group_minus_global": -0.00023358440434592675,
+        "absolute_disparity": 0.00023358440434592675,
+        "disparity": -0.00023358440434592675,
+        "valid_users": 267,
+        "available": true
+      },
+      "exposure_opportunity_tv": {
+        "group_mean": 0.5161637612717105,
+        "global_mean": 0.49743184217360287,
+        "group_minus_global": 0.01873191909810762,
+        "absolute_disparity": 0.01873191909810762,
+        "disparity": 0.01873191909810762,
+        "valid_users": 267,
+        "available": true
+      },
+      "normalized_popularity": {
+        "group_mean": 0.8419647107019206,
+        "global_mean": 0.8501502192906449,
+        "group_minus_global": -0.008185508588724355,
+        "absolute_disparity": 0.008185508588724355,
+        "disparity": null,
+        "valid_users": 267,
+        "available": true
+      },
+      "long_tail_rate": {
+        "group_mean": 0.06441947565543073,
+        "global_mean": 0.05396449704142012,
+        "group_minus_global": 0.01045497861401061,
+        "absolute_disparity": 0.01045497861401061,
+        "disparity": null,
+        "valid_users": 267,
+        "available": true
+      },
+      "intra_list_diversity": {
+        "group_mean": 0.5879473894253354,
+        "global_mean": 0.5966528822921716,
+        "group_minus_global": -0.008705492866836195,
+        "absolute_disparity": 0.008705492866836195,
+        "disparity": 0.008705492866836195,
+        "valid_users": 267,
+        "available": true
+      }
+    },
+    "audit_sha256": "26aab3d6af8289a31130ca6695b2030e6b85b35c70876b325b1799f446f96ea7"
+  },
+  {
+    "subgroup": [
+      0,
+      3
+    ],
+    "demographic_values": {
+      "gender": "F",
+      "age": "45"
+    },
+    "support": 129,
+    "valid": true,
+    "subgroup_utility": 0.03423376574581427,
+    "global_utility": 0.04497354997296791,
+    "disparity": 0.010739784227153638,
+    "expanded_bias": {
+      "calibration_js": {
+        "group_mean": 0.17621050332616084,
+        "global_mean": 0.17187023480743524,
+        "group_minus_global": 0.0043402685187255985,
+        "absolute_disparity": 0.0043402685187255985,
+        "disparity": 0.0043402685187255985,
+        "valid_users": 129,
+        "available": true
+      },
+      "exposure_opportunity_tv": {
+        "group_mean": 0.48873174220961785,
+        "global_mean": 0.49743184217360287,
+        "group_minus_global": -0.00870009996398502,
+        "absolute_disparity": 0.00870009996398502,
+        "disparity": -0.00870009996398502,
+        "valid_users": 129,
+        "available": true
+      },
+      "normalized_popularity": {
+        "group_mean": 0.8349015624697214,
+        "global_mean": 0.8501502192906449,
+        "group_minus_global": -0.015248656820923578,
+        "absolute_disparity": 0.015248656820923578,
+        "disparity": null,
+        "valid_users": 129,
+        "available": true
+      },
+      "long_tail_rate": {
+        "group_mean": 0.06744186046511629,
+        "global_mean": 0.05396449704142012,
+        "group_minus_global": 0.013477363423696168,
+        "absolute_disparity": 0.013477363423696168,
+        "disparity": null,
+        "valid_users": 129,
+        "available": true
+      },
+      "intra_list_diversity": {
+        "group_mean": 0.5795597234863016,
+        "global_mean": 0.5966528822921716,
+        "group_minus_global": -0.017093158805870035,
+        "absolute_disparity": 0.017093158805870035,
+        "disparity": 0.017093158805870035,
+        "valid_users": 129,
+        "available": true
+      }
+    },
+    "audit_sha256": "26aab3d6af8289a31130ca6695b2030e6b85b35c70876b325b1799f446f96ea7"
+  },
+  {
+    "subgroup": [
+      0,
+      4
+    ],
+    "demographic_values": {
+      "gender": "F",
+      "age": "35"
+    },
+    "support": 228,
+    "valid": true,
+    "subgroup_utility": 0.03626844946967893,
+    "global_utility": 0.04497354997296791,
+    "disparity": 0.00870510050328898,
+    "expanded_bias": {
+      "calibration_js": {
+        "group_mean": 0.17289822891314222,
+        "global_mean": 0.17187023480743524,
+        "group_minus_global": 0.0010279941057069752,
+        "absolute_disparity": 0.0010279941057069752,
+        "disparity": 0.0010279941057069752,
+        "valid_users": 228,
+        "available": true
+      },
+      "exposure_opportunity_tv": {
+        "group_mean": 0.4914655015156486,
+        "global_mean": 0.49743184217360287,
+        "group_minus_global": -0.005966340657954261,
+        "absolute_disparity": 0.005966340657954261,
+        "disparity": -0.005966340657954261,
+        "valid_users": 228,
+        "available": true
+      },
+      "normalized_popularity": {
+        "group_mean": 0.8456154217946833,
+        "global_mean": 0.8501502192906449,
+        "group_minus_global": -0.00453479749596164,
+        "absolute_disparity": 0.00453479749596164,
+        "disparity": null,
+        "valid_users": 228,
+        "available": true
+      },
+      "long_tail_rate": {
+        "group_mean": 0.05570175438596492,
+        "global_mean": 0.05396449704142012,
+        "group_minus_global": 0.0017372573445448014,
+        "absolute_disparity": 0.0017372573445448014,
+        "disparity": null,
+        "valid_users": 228,
+        "available": true
+      },
+      "intra_list_diversity": {
+        "group_mean": 0.5912918459939163,
+        "global_mean": 0.5966528822921716,
+        "group_minus_global": -0.0053610362982553506,
+        "absolute_disparity": 0.0053610362982553506,
+        "disparity": 0.0053610362982553506,
+        "valid_users": 228,
+        "available": true
+      }
+    },
+    "audit_sha256": "26aab3d6af8289a31130ca6695b2030e6b85b35c70876b325b1799f446f96ea7"
+  },
+  {
+    "subgroup": [
+      0,
+      5
+    ],
+    "demographic_values": {
+      "gender": "F",
+      "age": "50"
+    },
+    "support": 100,
+    "valid": true,
+    "subgroup_utility": 0.03746055539117516,
+    "global_utility": 0.04497354997296791,
+    "disparity": 0.007512994581792748,
+    "expanded_bias": {
+      "calibration_js": {
+        "group_mean": 0.1648968586030798,
+        "global_mean": 0.17187023480743524,
+        "group_minus_global": -0.006973376204355453,
+        "absolute_disparity": 0.006973376204355453,
+        "disparity": -0.006973376204355453,
+        "valid_users": 100,
+        "available": true
+      },
+      "exposure_opportunity_tv": {
+        "group_mean": 0.4979445344905191,
+        "global_mean": 0.49743184217360287,
+        "group_minus_global": 0.0005126923169162523,
+        "absolute_disparity": 0.0005126923169162523,
+        "disparity": 0.0005126923169162523,
+        "valid_users": 100,
+        "available": true
+      },
+      "normalized_popularity": {
+        "group_mean": 0.8352522872072282,
+        "global_mean": 0.8501502192906449,
+        "group_minus_global": -0.01489793208341672,
+        "absolute_disparity": 0.01489793208341672,
+        "disparity": null,
+        "valid_users": 100,
+        "available": true
+      },
+      "long_tail_rate": {
+        "group_mean": 0.074,
+        "global_mean": 0.05396449704142012,
+        "group_minus_global": 0.02003550295857988,
+        "absolute_disparity": 0.02003550295857988,
+        "disparity": null,
+        "valid_users": 100,
+        "available": true
+      },
+      "intra_list_diversity": {
+        "group_mean": 0.5711492991939289,
+        "global_mean": 0.5966528822921716,
+        "group_minus_global": -0.025503583098242744,
+        "absolute_disparity": 0.025503583098242744,
+        "disparity": 0.025503583098242744,
+        "valid_users": 100,
+        "available": true
+      }
+    },
+    "audit_sha256": "26aab3d6af8289a31130ca6695b2030e6b85b35c70876b325b1799f446f96ea7"
+  },
+  {
+    "subgroup": [
+      1,
+      2
+    ],
+    "demographic_values": {
+      "gender": "M",
+      "age": "25"
+    },
+    "support": 1067,
+    "valid": true,
+    "subgroup_utility": 0.04012665462172672,
+    "global_utility": 0.04497354997296791,
+    "disparity": 0.004846895351241186,
+    "expanded_bias": {
+      "calibration_js": {
+        "group_mean": 0.16958268486323408,
+        "global_mean": 0.17187023480743524,
+        "group_minus_global": -0.0022875499442011615,
+        "absolute_disparity": 0.0022875499442011615,
+        "disparity": -0.0022875499442011615,
+        "valid_users": 1067,
+        "available": true
+      },
+      "exposure_opportunity_tv": {
+        "group_mean": 0.49400117089369877,
+        "global_mean": 0.49743184217360287,
+        "group_minus_global": -0.003430671279904096,
+        "absolute_disparity": 0.003430671279904096,
+        "disparity": -0.003430671279904096,
+        "valid_users": 1067,
+        "available": true
+      },
+      "normalized_popularity": {
+        "group_mean": 0.8584225995892346,
+        "global_mean": 0.8501502192906449,
+        "group_minus_global": 0.008272380298589677,
+        "absolute_disparity": 0.008272380298589677,
+        "disparity": null,
+        "valid_users": 1067,
+        "available": true
+      },
+      "long_tail_rate": {
+        "group_mean": 0.039737582005623245,
+        "global_mean": 0.05396449704142012,
+        "group_minus_global": -0.014226915035796872,
+        "absolute_disparity": 0.014226915035796872,
+        "disparity": null,
+        "valid_users": 1067,
+        "available": true
+      },
+      "intra_list_diversity": {
+        "group_mean": 0.6084493774996088,
+        "global_mean": 0.5966528822921716,
+        "group_minus_global": 0.011796495207437196,
+        "absolute_disparity": 0.011796495207437196,
+        "disparity": -0.011796495207437196,
+        "valid_users": 1067,
+        "available": true
+      }
+    },
+    "audit_sha256": "26aab3d6af8289a31130ca6695b2030e6b85b35c70876b325b1799f446f96ea7"
+  },
+  {
+    "subgroup": [
+      0,
+      2
+    ],
+    "demographic_values": {
+      "gender": "F",
+      "age": "25"
+    },
+    "support": 406,
+    "valid": true,
+    "subgroup_utility": 0.045696791784073966,
+    "global_utility": 0.04497354997296791,
+    "disparity": -0.0007232418111060568,
+    "expanded_bias": {
+      "calibration_js": {
+        "group_mean": 0.16939170182262395,
+        "global_mean": 0.17187023480743524,
+        "group_minus_global": -0.0024785329848112936,
+        "absolute_disparity": 0.0024785329848112936,
+        "disparity": -0.0024785329848112936,
+        "valid_users": 406,
+        "available": true
+      },
+      "exposure_opportunity_tv": {
+        "group_mean": 0.4704580480539092,
+        "global_mean": 0.49743184217360287,
+        "group_minus_global": -0.026973794119693695,
+        "absolute_disparity": 0.026973794119693695,
+        "disparity": -0.026973794119693695,
+        "valid_users": 406,
+        "available": true
+      },
+      "normalized_popularity": {
+        "group_mean": 0.853527281599297,
+        "global_mean": 0.8501502192906449,
+        "group_minus_global": 0.00337706230865209,
+        "absolute_disparity": 0.00337706230865209,
+        "disparity": null,
+        "valid_users": 406,
+        "available": true
+      },
+      "long_tail_rate": {
+        "group_mean": 0.039901477832512314,
+        "global_mean": 0.05396449704142012,
+        "group_minus_global": -0.014063019208907804,
+        "absolute_disparity": 0.014063019208907804,
+        "disparity": null,
+        "valid_users": 406,
+        "available": true
+      },
+      "intra_list_diversity": {
+        "group_mean": 0.587314857869768,
+        "global_mean": 0.5966528822921716,
+        "group_minus_global": -0.009338024422403612,
+        "absolute_disparity": 0.009338024422403612,
+        "disparity": 0.009338024422403612,
+        "valid_users": 406,
+        "available": true
+      }
+    },
+    "audit_sha256": "26aab3d6af8289a31130ca6695b2030e6b85b35c70876b325b1799f446f96ea7"
+  },
+  {
+    "subgroup": [
+      1,
+      4
+    ],
+    "demographic_values": {
+      "gender": "M",
+      "age": "35"
+    },
+    "support": 596,
+    "valid": true,
+    "subgroup_utility": 0.05324627245425011,
+    "global_utility": 0.04497354997296791,
+    "disparity": -0.008272722481282198,
+    "expanded_bias": {
+      "calibration_js": {
+        "group_mean": 0.1768514331978738,
+        "global_mean": 0.17187023480743524,
+        "group_minus_global": 0.004981198390438563,
+        "absolute_disparity": 0.004981198390438563,
+        "disparity": 0.004981198390438563,
+        "valid_users": 596,
+        "available": true
+      },
+      "exposure_opportunity_tv": {
+        "group_mean": 0.5132800772758775,
+        "global_mean": 0.49743184217360287,
+        "group_minus_global": 0.015848235102274677,
+        "absolute_disparity": 0.015848235102274677,
+        "disparity": 0.015848235102274677,
+        "valid_users": 596,
+        "available": true
+      },
+      "normalized_popularity": {
+        "group_mean": 0.8539179064743104,
+        "global_mean": 0.8501502192906449,
+        "group_minus_global": 0.0037676871836654913,
+        "absolute_disparity": 0.0037676871836654913,
+        "disparity": null,
+        "valid_users": 596,
+        "available": true
+      },
+      "long_tail_rate": {
+        "group_mean": 0.048993288590604034,
+        "global_mean": 0.05396449704142012,
+        "group_minus_global": -0.004971208450816084,
+        "absolute_disparity": 0.004971208450816084,
+        "disparity": null,
+        "valid_users": 596,
+        "available": true
+      },
+      "intra_list_diversity": {
+        "group_mean": 0.5980468694961132,
+        "global_mean": 0.5966528822921716,
+        "group_minus_global": 0.0013939872039415713,
+        "absolute_disparity": 0.0013939872039415713,
+        "disparity": -0.0013939872039415713,
+        "valid_users": 596,
+        "available": true
+      }
+    },
+    "audit_sha256": "26aab3d6af8289a31130ca6695b2030e6b85b35c70876b325b1799f446f96ea7"
+  },
+  {
+    "subgroup": [
+      1,
+      3
+    ],
+    "demographic_values": {
+      "gender": "M",
+      "age": "45"
+    },
+    "support": 254,
+    "valid": true,
+    "subgroup_utility": 0.05529176924793827,
+    "global_utility": 0.04497354997296791,
+    "disparity": -0.010318219274970362,
+    "expanded_bias": {
+      "calibration_js": {
+        "group_mean": 0.17097682290022925,
+        "global_mean": 0.17187023480743524,
+        "group_minus_global": -0.0008934119072059876,
+        "absolute_disparity": 0.0008934119072059876,
+        "disparity": -0.0008934119072059876,
+        "valid_users": 254,
+        "available": true
+      },
+      "exposure_opportunity_tv": {
+        "group_mean": 0.5045782852342434,
+        "global_mean": 0.49743184217360287,
+        "group_minus_global": 0.0071464430606405505,
+        "absolute_disparity": 0.0071464430606405505,
+        "disparity": 0.0071464430606405505,
+        "valid_users": 254,
+        "available": true
+      },
+      "normalized_popularity": {
+        "group_mean": 0.847933851181368,
+        "global_mean": 0.8501502192906449,
+        "group_minus_global": -0.002216368109276945,
+        "absolute_disparity": 0.002216368109276945,
+        "disparity": null,
+        "valid_users": 254,
+        "available": true
+      },
+      "long_tail_rate": {
+        "group_mean": 0.05551181102362204,
+        "global_mean": 0.05396449704142012,
+        "group_minus_global": 0.0015473139822019255,
+        "absolute_disparity": 0.0015473139822019255,
+        "disparity": null,
+        "valid_users": 254,
+        "available": true
+      },
+      "intra_list_diversity": {
+        "group_mean": 0.6037784884799874,
+        "global_mean": 0.5966528822921716,
+        "group_minus_global": 0.0071256061878157695,
+        "absolute_disparity": 0.0071256061878157695,
+        "disparity": -0.0071256061878157695,
+        "valid_users": 254,
+        "available": true
+      }
+    },
+    "audit_sha256": "26aab3d6af8289a31130ca6695b2030e6b85b35c70876b325b1799f446f96ea7"
+  },
+  {
+    "subgroup": [
+      1,
+      6
+    ],
+    "demographic_values": {
+      "gender": "M",
+      "age": "18"
+    },
+    "support": 555,
+    "valid": true,
+    "subgroup_utility": 0.055886680517399485,
+    "global_utility": 0.04497354997296791,
+    "disparity": -0.010913130544431576,
+    "expanded_bias": {
+      "calibration_js": {
+        "group_mean": 0.17265674647952725,
+        "global_mean": 0.17187023480743524,
+        "group_minus_global": 0.0007865116720920107,
+        "absolute_disparity": 0.0007865116720920107,
+        "disparity": 0.0007865116720920107,
+        "valid_users": 555,
+        "available": true
+      },
+      "exposure_opportunity_tv": {
+        "group_mean": 0.5015914507232024,
+        "global_mean": 0.49743184217360287,
+        "group_minus_global": 0.004159608549599569,
+        "absolute_disparity": 0.004159608549599569,
+        "disparity": 0.004159608549599569,
+        "valid_users": 555,
+        "available": true
+      },
+      "normalized_popularity": {
+        "group_mean": 0.8563545240772941,
+        "global_mean": 0.8501502192906449,
+        "group_minus_global": 0.0062043047866491285,
+        "absolute_disparity": 0.0062043047866491285,
+        "disparity": null,
+        "valid_users": 555,
+        "available": true
+      },
+      "long_tail_rate": {
+        "group_mean": 0.050450450450450456,
+        "global_mean": 0.05396449704142012,
+        "group_minus_global": -0.003514046590969662,
+        "absolute_disparity": 0.003514046590969662,
+        "disparity": null,
+        "valid_users": 555,
+        "available": true
+      },
+      "intra_list_diversity": {
+        "group_mean": 0.6020565525432245,
+        "global_mean": 0.5966528822921716,
+        "group_minus_global": 0.005403670251052928,
+        "absolute_disparity": 0.005403670251052928,
+        "disparity": -0.005403670251052928,
+        "valid_users": 555,
+        "available": true
+      }
+    },
+    "audit_sha256": "26aab3d6af8289a31130ca6695b2030e6b85b35c70876b325b1799f446f96ea7"
+  },
+  {
+    "subgroup": [
+      0,
+      6
+    ],
+    "demographic_values": {
+      "gender": "F",
+      "age": "18"
+    },
+    "support": 202,
+    "valid": true,
+    "subgroup_utility": 0.07624866720329035,
+    "global_utility": 0.04497354997296791,
+    "disparity": -0.03127511723032244,
+    "expanded_bias": {
+      "calibration_js": {
+        "group_mean": 0.17081736165254832,
+        "global_mean": 0.17187023480743524,
+        "group_minus_global": -0.0010528731548869186,
+        "absolute_disparity": 0.0010528731548869186,
+        "disparity": -0.0010528731548869186,
+        "valid_users": 202,
+        "available": true
+      },
+      "exposure_opportunity_tv": {
+        "group_mean": 0.4812479916046681,
+        "global_mean": 0.49743184217360287,
+        "group_minus_global": -0.016183850568934788,
+        "absolute_disparity": 0.016183850568934788,
+        "disparity": -0.016183850568934788,
+        "valid_users": 202,
+        "available": true
+      },
+      "normalized_popularity": {
+        "group_mean": 0.847912850822693,
+        "global_mean": 0.8501502192906449,
+        "group_minus_global": -0.0022373684679519723,
+        "absolute_disparity": 0.0022373684679519723,
+        "disparity": null,
+        "valid_users": 202,
+        "available": true
+      },
+      "long_tail_rate": {
+        "group_mean": 0.046039603960396046,
+        "global_mean": 0.05396449704142012,
+        "group_minus_global": -0.007924893081024072,
+        "absolute_disparity": 0.007924893081024072,
+        "disparity": null,
+        "valid_users": 202,
+        "available": true
+      },
+      "intra_list_diversity": {
+        "group_mean": 0.6014903254205283,
+        "global_mean": 0.5966528822921716,
+        "group_minus_global": 0.0048374431283566555,
+        "absolute_disparity": 0.0048374431283566555,
+        "disparity": -0.0048374431283566555,
+        "valid_users": 202,
+        "available": true
+      }
+    },
+    "audit_sha256": "26aab3d6af8289a31130ca6695b2030e6b85b35c70876b325b1799f446f96ea7"
+  }
+]

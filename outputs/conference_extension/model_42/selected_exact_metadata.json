@@ -1,0 +1,6 @@
+{
+  "seconds": 0.0013083999510854483,
+  "requests": 7,
+  "objective_sha256": "b4709bb1765bcbb919c44f9ed41c0e99ce2a1aef2edd04bd8643698fdea0253c",
+  "stopping": "space_exhaustion; separate reference, not forced to spend 4000 requests"
+}

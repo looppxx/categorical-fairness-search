@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "runs": 740,
+  "requests": 2960000,
+  "exact_score_checks": 1880000,
+  "synthetic_score_checks": 17820
+}

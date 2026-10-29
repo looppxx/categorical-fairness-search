@@ -1,0 +1,5 @@
+# Provenance hashes identify exact bytes, including historical line endings.
+* -text
+*.gz binary
+*.pdf binary
+*.png binary

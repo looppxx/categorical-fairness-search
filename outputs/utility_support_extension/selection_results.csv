@@ -1,0 +1,13 @@
+model_seed,target,cap,arm,selected_features,cells,utility_positive_labels,development_users,development_mean_utility
+42,activity,2,activity_cap2,"[""age""]",7,,1810,0.046449226676114785
+42,activity,3,activity_cap3,"[""gender"", ""age"", ""occupation""]",294,,1810,0.046449226676114785
+42,utility,2,utility_cap2,"[""age""]",7,1647,1810,0.046449226676114785
+42,utility,3,utility_cap3,"[""age""]",7,1647,1810,0.046449226676114785
+100,activity,2,activity_cap2,"[""age""]",7,,1810,0.038743763808392215
+100,activity,3,activity_cap3,"[""age""]",7,,1810,0.038743763808392215
+100,utility,2,utility_cap2,"[""occupation""]",21,1665,1810,0.038743763808392215
+100,utility,3,utility_cap3,"[""occupation""]",21,1665,1810,0.038743763808392215
+2026,activity,2,activity_cap2,"[""gender"", ""age""]",14,,1810,0.04260679967236431
+2026,activity,3,activity_cap3,"[""gender"", ""age""]",14,,1810,0.04260679967236431
+2026,utility,2,utility_cap2,"[""age""]",7,1655,1810,0.04260679967236431
+2026,utility,3,utility_cap3,"[""age""]",7,1655,1810,0.04260679967236431

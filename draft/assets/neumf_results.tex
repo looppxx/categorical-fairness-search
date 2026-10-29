@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering
+\caption{MovieLens/NeuMF: means across three paired model/search seeds, 4,000 requests per method and seed. DPSO uses the native backend. Invalid is the total invalid-request count; time excludes training and objective setup.}
+\label{tab:neumf}
+\small
+\begin{tabular}{lrrrrr}
+\toprule
+Method & $\Delta_{\mathrm{NDCG}}$ & Unique & Invalid & $D_{.02}$ & Time (s) \\
+\midrule
+DPSO & 0.02216 & 9.00 & 0 & 0.33 & 0.8742 \\
+GA & 0.02216 & 9.33 & 0 & 0.33 & 1.3301 \\
+ACO & 0.02216 & 9.33 & 0 & 0.33 & 1.1640 \\
+DE & 0.02216 & 9.33 & 0 & 0.33 & 1.2504 \\
+\bottomrule
+\end{tabular}
+\end{table}

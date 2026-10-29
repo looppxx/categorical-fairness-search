@@ -1,0 +1,4 @@
+model_seed,selected_features,full_cells,supported_full_cells,selected_cells,full_maximum_gap,selected_maximum_gap,maximum_gap_difference,high_full_cells,high_cells_with_high_projected_parent,parent_threshold_retention,high_cell_users,high_cell_users_with_high_parent,interpretation
+42,"[""age""]",294,61,7,0.04661510321724691,0.014952495526523349,0.031662607690723564,14,0,0.0,652,0,"threshold attenuation under projection; grammars differ, not optimizer regret"
+100,"[""age""]",294,61,7,0.043779775208676076,0.014842484113192254,0.028937291095483823,18,0,0.0,658,0,"threshold attenuation under projection; grammars differ, not optimizer regret"
+2026,"[""gender"", ""age""]",294,61,14,0.04497354997296791,0.03669130847155651,0.008282241501411401,15,1,0.06666666666666667,599,43,"threshold attenuation under projection; grammars differ, not optimizer regret"

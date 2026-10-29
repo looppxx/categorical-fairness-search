@@ -1,0 +1,27 @@
+{
+  "dataset": "last-fm",
+  "grammar": "unfiltered",
+  "algorithm": "DPSO (native)",
+  "search_seed": 1008,
+  "maximum_score": 0.03739512612450124,
+  "best_group": [
+    0,
+    25,
+    2
+  ],
+  "best_found_query": 3050,
+  "requests": 4000,
+  "unique_groups": 505,
+  "invalid_requests": 3220,
+  "threshold_groups": 2,
+  "search_seconds": 0.3761876000000939,
+  "objective_sha256": "66fecb144062009642e001b60d5af5f25e63992baf31dd089d7736e344430d69",
+  "exact_optimum": 0.25111450443786254,
+  "regret": 0.2137193783133613,
+  "optimum_found": false,
+  "valid_cells": 894,
+  "total_cells": 53058,
+  "reference_high": 323,
+  "threshold_recall": 0.006191950464396285,
+  "first_optimum_query": null
+}

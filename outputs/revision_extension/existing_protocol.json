@@ -1,0 +1,52 @@
+{
+  "scope": "existing",
+  "methods": [
+    "DPSO (native)",
+    "GA",
+    "ACO",
+    "DE",
+    "ABC",
+    "SA",
+    "Random"
+  ],
+  "budget": 4000,
+  "population_per_end": 20,
+  "threshold": 0.02,
+  "synthetic_threshold": 0.65,
+  "source_sha256": {
+    "C:\\Users\\DELL\\OneDrive - Universiti Teknologi PETRONAS\\PG\\result\\fairness_lab\\revision.py": "34df8e4a72a82b9cf84d1587dfed75fe18bf8d5b59d0319daf8d8ffc73df7ced",
+    "compare_fairrec_search.py": "3bbe59c2d46ff83acab333325a10fc44e0df740df6d4f8ce54fa4f6b96913ab3",
+    "fairness_lab\\conference.py": "ca4bc0823c65b7443d6f966944f8df608a36f8784abc0417749cfcdb8343549d",
+    "fairness_lab\\empirical.py": "d8a5e44f823f5470d092336c376bfe6da7a0a6c7720ba276bda50ad6e09cd6e6",
+    "fairness_lab\\subgroup_objectives.py": "aa6d2ef9082eb9a4ec038ac45fe1af0f331113c16589f7fd1e51d89666df085b",
+    "fairness_lab\\categorical_selection.py": "e81185fa9fe3ffa8264c55755f1c09f544c76c817b1a31367ad9500d00495eae",
+    "fairness_lab\\features.py": "ee9c2aecd51e2a6f8005c3c2c05fd20ec80f40c10604afe54f7edf316b7daa3c"
+  },
+  "native_sha256": "9ebb146bc3be94c209c90421094f2e83cbe2a7b0ddfc2231b9da718bc3db4159",
+  "split_seed": 314159,
+  "min_support": 20,
+  "support_grid": [
+    5,
+    20,
+    50,
+    100
+  ],
+  "external_search_seeds": [
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009,
+    1010
+  ],
+  "external_development_fraction": 0.3,
+  "external_discovery_fraction": 0.35,
+  "selection_cv": 3,
+  "selection_depth": 5,
+  "selection_tolerance": 0.001,
+  "note": "post hoc; no test-based tuning; supplied DeepFM checkpoints are not new training replications"
+}

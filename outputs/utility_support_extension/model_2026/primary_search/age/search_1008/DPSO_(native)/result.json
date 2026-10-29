@@ -1,0 +1,30 @@
+{
+  "model_seed": 2026,
+  "grammar": "age",
+  "aliases": [
+    "utility_cap2",
+    "utility_cap3"
+  ],
+  "min_support": 50,
+  "algorithm": "DPSO (native)",
+  "search_seed": 1008,
+  "maximum_score": 0.022575197095693885,
+  "best_group": [
+    0
+  ],
+  "best_found_query": 3,
+  "requests": 4000,
+  "unique_groups": 7,
+  "invalid_requests": 0,
+  "threshold_groups": 1,
+  "search_seconds": 0.10319589998107404,
+  "objective_sha256": "fd25a644fe10df1dc0e462a3c94b0fd462a8718333eeb3bff19ad1f65f8c4e0b",
+  "exact_optimum": 0.022575197095693885,
+  "regret": 0.0,
+  "optimum_found": true,
+  "valid_cells": 7,
+  "total_cells": 7,
+  "reference_high": 1,
+  "threshold_recall": 1.0,
+  "first_optimum_query": 3
+}

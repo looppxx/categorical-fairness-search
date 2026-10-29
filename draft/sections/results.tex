@@ -1,0 +1,72 @@
+\section{Results and Discussion}
+\label{sec:results}
+
+\subsection{Initial Synthetic Comparison}
+The initial three-run comparison on one NK/trap landscape yields mean maximum scores of 0.60838 for native DPSO, 0.71938 for GA, 0.72630 for ACO, and 0.73499 for DE. GA and ACO discover $405.0\pm83.4$ and $546.7\pm219.8$ distinct candidates above 0.65, compared with zero for DPSO. These are synthetic scores and category assignments, not measured population disparities. DPSO evaluates 381 distinct assignments on average, compared with 2,336.3 for GA and 3,570.3 for ACO. Its final best is first reached at requests 347, 3,035, and 2,303, which supports concentrated exploration but not a uniform early-collapse mechanism. These initial observations motivate the broader controls below.
+
+\input{assets/revision_synthetic.tex}
+\subsection{Synthetic Robustness Across Families and Encodings}
+The extension separates score-family effects from repetition on one landscape. Table~\ref{tab:synthetic-robustness} summarizes 945 searches across seven methods, with five search seeds crossed with three encodings of each of three instances per family. Breadth counts are compared within a family because the common threshold does not imply equivalent difficulty across score distributions. Encoding spread describes the range of encoding-specific mean maxima, averaged across instances; it does not estimate a causal effect of category arithmetic.
+
+GA and ACO both attain mean maximum 0.71808 on additive instances, compared with 0.62778 for DPSO and 0.63854 for random sampling. On NK/trap instances, GA and ACO reach 0.71788 and 0.71868, versus 0.60898 for DPSO and 0.70386 for DE. Thus DE's highest mean in the initial three-run comparison does not persist in the expanded NK/trap design. On modular instances, GA, ACO, and DE all attain score one in every search, whereas DPSO and random sampling average 0.88611 and 0.91944.
+
+Discovery breadth remains method- and family-dependent. ACO has the largest mean archive on additive and NK/trap instances (1,023.1 and 409.9 candidates), while GA leads on modular instances (805.0). These results support categorical adaptive search on the tested synthetic families, without identifying one universally best operator. On NK/trap instances, DPSO's mean encoding spread is 0.02297, compared with 0.01236 for GA, 0.01089 for ACO, and 0.01439 for random sampling. Variation even in random sampling emphasizes why a nonzero spread alone cannot establish a numerical-encoding mechanism.
+
+The additional heuristics sharpen this qualification. SA reaches mean maximum 0.72280 on NK/trap instances, exceeding GA and ACO, whereas ABC reaches 0.69428. Both attain score one in every modular search; their modular breadths average 600.8 for ABC and 801.4 for SA. Thus GA/ACO performance relative to native DPSO does not justify claiming superiority over established heuristics generally. The contribution is a controlled characterization of these configurations and their tradeoffs between score and discovery breadth.
+
+\subsection{Exact NeuMF References and Search Repeats}
+\input{assets/revision_neumf.tex}
+All 210 selected-grammar searches attain an exact optimum. The selected spaces contain seven cells for model seeds 42 and 100 and fourteen for seed 2026. Their maximum gaps remain 0.01495, 0.01484, and 0.03669, respectively. Thus the original agreement across optimizers persists with independent search repeats and the added ABC/SA configurations.
+
+The unfiltered gender--age--occupation grammar has 294 possible cells, of which 61 satisfy support 20. GA, ACO, DE, and random sampling attain exact optima in all 30 searches each. Native DPSO succeeds in 28 of 30, with mean regret 0.00077. Mean above-threshold recall is 64.6\% for DPSO, 99.6\% for GA, 90.3\% for ACO, 89.0\% for DE, and 100\% for random sampling. These are conditional search-repeat summaries on three fixed checkpoints, not independent dataset replications.
+
+ABC and SA also reach all 30 full-grammar optima, with mean threshold recall 99.8\% and 95.2\%, respectively. Adding heuristics therefore broadens the comparison without changing the negative finding: none has an endpoint advantage over random sampling in this MovieLens setting.
+
+The budget is over thirteen times the number of possible full cells, making random sampling a strong reference. Its median first optimum request is 36, compared with 32 for successful DPSO searches, 44 for GA, 31 for ACO, and 51.5 for DE. Figure~\ref{fig:attainment} shows the recorded attainment trajectories. First-hit summaries exclude failed searches and therefore must be read with attainment rates. Exact enumeration needs only 294 requests to establish every full-cell score, including invalid cells. Adaptive search has no demonstrated endpoint advantage over random or exhaustive evaluation in this small real-model domain.
+
+The two references address different questions. Random sampling tests whether adaptive proposals improve discovery under the same charged budget; its complete threshold recall makes such a benefit unsupported here. Exhaustive enumeration certifies the attainable within-grammar gaps, rules out hidden search regret, and evaluates every cell in fewer requests than the heuristic budget. A uniform sampler's probability of visiting any particular full cell within $B$ independent requests is $1-(293/294)^B$, explaining why 4,000 requests make endpoint attainment a weak discriminator. Early-budget trajectories remain descriptive; a case for adaptive optimization would require a demonstrable advantage at smaller budgets or in substantially larger supported grammars.
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=\columnwidth]{assets/revision_attainment.png}
+    \caption{Exact-optimum attainment in the unfiltered NeuMF grammar, using recorded first-hit requests. Each method has ten searches on each of three fixed checkpoints. Searches that fail to reach an optimum remain unattained at 4,000 requests.}
+    \label{fig:attainment}
+\end{figure}
+
+\subsection{Feature Selection Attenuates Observed Gaps}
+\input{assets/selection_ablation.tex}
+Exact unfiltered maximum validation gaps are 0.04662, 0.04378, and 0.04497 for seeds 42, 100, and 2026. The selected maxima are smaller by 0.03166, 0.02894, and 0.00828, respectively. These differences reflect a change in expressible predicates, rather than search failure within an unchanged grammar.
+
+More directly, the full audit finds 14, 18, and 15 supported intersections above 0.02. Mapping those cells to their selected-feature parents leaves 0, 0, and 1 parents above threshold. The corresponding high-gap full cells contain 652, 658, and 599 audit users; only 43 users in the third model belong to a high-gap full cell with an above-threshold parent. This comparison measures attenuation by aggregation, without treating threshold flags as confirmed population harms.
+
+The ablation supplies evidence against assuming that activity-based predictive selection preserves utility-disadvantage signals. The observed reduction is determined by backward elimination from all three audit attributes. The appropriate conclusion is that the evaluated activity-proxy wrapper can conceal observed intersectional gaps, even while simplifying optimization. A practical audit should enumerate a tractable full grammar and evaluate gap retention before accepting a projected grammar; predictive activity accuracy alone is insufficient evidence of that retention.
+
+\subsection{Selection-Target, Subset-Size, and Support Ablations}
+\input{assets/revision_target_ablation.tex}
+Table~\ref{tab:target-ablation} compares activity and utility-deficit targets under caps two and three. For seed 42, relaxing the activity cap retains all three attributes and all 14 above-threshold full cells, whereas utility-target selection retains age alone and none of those cells under either cap. For seed 100, utility-target selection retains occupation and preserves 3 of 18 full-cell flags, compared with none under activity selection. For seed 2026, both targets preserve only 1 of 15 flags, despite different selected grammars. A utility-related label therefore does not by itself guarantee retention of intersectional utility gaps, and a relaxed cap is not a requirement to retain every attribute.
+
+Support sensitivity supplies a second boundary. Raising the full-grammar support threshold from 20 to 50, 100, and 200 leaves 61, 19, 8, and 1 supported cells, respectively, for each MovieLens checkpoint. The above-threshold counts change from 14/18/15 at support 20 to 6/4/4 at 50, 1/1/1 at 100, and 0/0/0 at 200. This is a change in the population intersections admitted to the audit, not evidence that higher support removes underlying harms. These controls remain post hoc and concern the specified wrapper and support policy.
+
+\subsection{Additional Datasets: Projection and Search}
+\input{assets/revision_datasets.tex}
+\input{assets/revision_external_search.tex}
+The additional datasets test the limits of the MovieLens observation, using a different frozen model and ranking protocol (Table~\ref{tab:additional-datasets}). LFM360K's full grammar contains 53,058 cells, but only 894 meet support 20. The two-feature utility-target pipeline retains gender and country, yielding 478 possible cells and a maximum observed gap of 0.11735, compared with 0.25111 in the full grammar. Of 323 high-gap full cells, 115 retain an above-threshold projected parent. The corresponding Amazon behavioral-profile audit reduces 1,000 possible cells to 100, with maximum observed gaps 0.16988 and 0.08781; only 15 of 84 high-gap full cells retain an above-threshold parent. For both datasets, the full-size cap yields the same selected subset as cap two. These are effects of the evaluated utility-target/backward-elimination pipeline, not replications of the MovieLens activity-proxy label or evidence of protected-group disadvantage in Amazon.
+
+Table~\ref{tab:additional-search} shows dataset-dependent search behavior. In LFM360K's selected grammar, random, GA, ACO, ABC, and SA attain every optimum; native DPSO and DE attain three of ten. In the sparse full grammar, SA attains three of ten, ACO and random two, DE one, and the other methods none. SA has the smallest descriptive mean regret (0.02308), but ten searches on one checkpoint do not establish general superiority. DE has the highest full-grammar threshold recall (27.6\%), illustrating that breadth and extreme-score attainment need not identify the same method.
+
+In Amazon, every method attains all ten selected-grammar optima. Random sampling also attains all ten full-grammar optima with 98.0\% mean threshold recall, whereas GA and ABC attain nine of ten and native DPSO five. Thus a larger grammar alone does not establish a need for adaptation; supported density, budget relative to space size, and objective geometry also matter. Exhaustive references remain computationally feasible for all these grammars, although LFM360K enumeration uses more than the heuristic request budget.
+
+\input{assets/revision_external_confirmation.tex}
+The fixed LFM360K full-rule gap falls from 0.25111 in discovery to 0.11013 on separate confirmation users; its selected-rule gap falls from 0.11735 to 0.07657. Amazon's full and selected gaps change from 0.16988/0.08781 to 0.10229/0.01092. Every pointwise bounded-outcome interval includes zero (Table~\ref{tab:additional-confirmation}). These observations show attenuation and uncertain persistence under the supplied protocols; they do not confirm population discrimination or repair incomplete checkpoint provenance.
+
+\subsection{MovieLens Test Confirmation and Uncertainty}
+\input{assets/extended_confirmation.tex}
+The selected-grammar maximizers are users aged 50 for model seeds 42 and 100 (367 users), and female users in age category 1 for seed 2026 (52 users). Their test gaps are 0.00722, 0.01601, and $-0.05944$, respectively. The fixed full-grammar maximizers have supports 25, 22, and 22, and test gaps 0.02338, $-0.06696$, and $-0.05983$. Full maxima tie across 2, 5, and 5 cells, respectively; enumeration order fixes one rule before confirmation. Approximately 91\% of audit users have zero validation NDCG@10. This sparse single-item utility and the presence of tied zero-hit groups limit interpretation of the maxima and their test persistence.
+
+Validation disadvantages therefore do not consistently persist on test interactions. Conservative bounded-outcome intervals include zero for all six fixed rules. The separately recorded bootstrap intervals can be narrower, particularly in sparse cells, but neither calculation adjusts for adaptive selection, shared audit users, or the post hoc extension. These results establish observed validation differences and uncertainty about persistence, rather than confirmed discriminatory treatment.
+
+\subsection{Expanded Behavioral Auditing}
+\input{assets/bias_audit.tex}
+For the original GA-selected subgroups, validation calibration divergence averages 0.16646 versus 0.16853 globally, a signed gap of $-0.00208$. Exposure-opportunity mismatch averages 0.51512 versus 0.49630, a gap of $+0.01882$. Intra-list diversity averages 0.57709 versus 0.60205, a gap of $-0.02495$. These are equal-weight means across three model seeds, not pooled user means. Within each original seed, the other search methods select the same subgroup and yield the same companion measurements.
+
+Calibration gaps vary in sign across seeds, whereas exposure-opportunity mismatch is higher and intra-list diversity lower in each selected subgroup. These descriptive measurements contextualize utility differences; they do not establish significance or causal harm. Their interpretation depends on the declared eligible-catalog opportunity reference~\cite{burke2017multisided,biega2018equity,singh2018fairness}. The extension's utility-only search timings exclude these companion aggregations and are not pooled with the original timings.

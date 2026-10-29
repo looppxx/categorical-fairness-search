@@ -1,0 +1,27 @@
+\begin{table}[t]
+\centering
+\caption{Synthetic robustness: 45 searches per family/method, crossing three landscapes, three encodings, and five search seeds. Score is mean maximum; breadth counts distinct candidates scoring at least 0.65. Spread is the mean across landscapes of the range of encoding-specific mean scores. These are descriptive summaries; score scales differ by family.}
+\label{tab:synthetic-robustness}
+\small
+\begin{tabular}{llrrr}
+\toprule
+Family & Method & Score & Breadth & Spread \\
+\midrule
+Additive & DPSO & 0.6278 & 0.8 & 0.0107 \\
+Additive & GA & 0.7181 & 754.9 & 0.0000 \\
+Additive & ACO & 0.7181 & 1023.1 & 0.0000 \\
+Additive & DE & 0.7104 & 558.4 & 0.0031 \\
+Additive & Random & 0.6385 & 0.8 & 0.0074 \\
+NK/trap & DPSO & 0.6090 & 0.3 & 0.0230 \\
+NK/trap & GA & 0.7179 & 357.7 & 0.0124 \\
+NK/trap & ACO & 0.7187 & 409.9 & 0.0109 \\
+NK/trap & DE & 0.7039 & 126.8 & 0.0160 \\
+NK/trap & Random & 0.6350 & 0.2 & 0.0144 \\
+Modular & DPSO & 0.8861 & 16.4 & 0.0417 \\
+Modular & GA & 1.0000 & 805.0 & 0.0000 \\
+Modular & ACO & 1.0000 & 546.8 & 0.0000 \\
+Modular & DE & 1.0000 & 406.4 & 0.0000 \\
+Modular & Random & 0.9194 & 78.6 & 0.0500 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,5 @@
+{
+  "stopping": "request_budget",
+  "backend": "native_fairrec_source",
+  "native_rng_seed": 1310344685
+}

@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering
+\caption{Selection audit against exhaustive full conjunctions (294 possible cells per model). Valid counts supported full cells; retained counts high-gap full cells whose selected-feature parent also exceeds 0.02. This is threshold attenuation under aggregation, not a same-grammar optimizer comparison.}
+\label{tab:selection-ablation}
+\small
+\begin{tabular}{rrrrrr}
+\toprule
+Seed & Sel. & Valid & $\Delta_{sel}$ & $\Delta_{full}$ & Retained \\
+\midrule
+42 & 7 & 61 & 0.01495 & 0.04662 & 0/14 \\
+100 & 7 & 61 & 0.01484 & 0.04378 & 0/18 \\
+2026 & 14 & 61 & 0.03669 & 0.04497 & 1/15 \\
+\bottomrule
+\end{tabular}
+\end{table}

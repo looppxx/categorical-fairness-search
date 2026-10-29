@@ -1,0 +1,37 @@
+dataset,arm,min_support,features,total_cells,valid_cells,maximum_gap,high_full_cells,retained_full_cells,parent_threshold_retention
+last-fm,utility_cap2,5,"[""gender"", ""country""]",478,224,0.2750226234905944,824,266,0.32281553398058255
+last-fm,utility_cap3,5,"[""gender"", ""country""]",478,224,0.2750226234905944,824,266,0.32281553398058255
+last-fm,unfiltered,5,"[""gender"", ""age"", ""country""]",53058,2012,0.4649250938366871,824,824,1.0
+last-fm,utility_cap2,20,"[""gender"", ""country""]",478,135,0.11734814214497025,323,115,0.3560371517027864
+last-fm,utility_cap3,20,"[""gender"", ""country""]",478,135,0.11734814214497025,323,115,0.3560371517027864
+last-fm,unfiltered,20,"[""gender"", ""age"", ""country""]",53058,894,0.25111450443786254,323,323,1.0
+last-fm,utility_cap2,50,"[""gender"", ""country""]",478,111,0.1146699042785071,134,46,0.34328358208955223
+last-fm,utility_cap3,50,"[""gender"", ""country""]",478,111,0.1146699042785071,134,46,0.34328358208955223
+last-fm,unfiltered,50,"[""gender"", ""age"", ""country""]",53058,410,0.14719618317918248,134,134,1.0
+last-fm,utility_cap2,100,"[""gender"", ""country""]",478,86,0.1146699042785071,57,17,0.2982456140350877
+last-fm,utility_cap3,100,"[""gender"", ""country""]",478,86,0.1146699042785071,57,17,0.2982456140350877
+last-fm,unfiltered,100,"[""gender"", ""age"", ""country""]",53058,206,0.09399726796980756,57,57,1.0
+black-fri,utility_cap2,5,"[""age""]",7,7,0.043118995019796935,18,5,0.2777777777777778
+black-fri,utility_cap6,5,"[""age"", ""occupation"", ""city"", ""martial_status""]",882,139,0.3236837877716241,18,14,0.7777777777777778
+black-fri,unfiltered,5,"[""gender"", ""age"", ""occupation"", ""city"", ""stay_years"", ""martial_status""]",8820,43,0.34906874235302116,18,18,1.0
+black-fri,utility_cap2,20,"[""age""]",7,7,0.043118995019796935,0,0,
+black-fri,utility_cap6,20,"[""age"", ""occupation"", ""city"", ""martial_status""]",882,14,0.17601441334337836,0,0,
+black-fri,unfiltered,20,"[""gender"", ""age"", ""occupation"", ""city"", ""stay_years"", ""martial_status""]",8820,0,,0,0,
+black-fri,utility_cap2,50,"[""age""]",7,7,0.043118995019796935,0,0,
+black-fri,utility_cap6,50,"[""age"", ""occupation"", ""city"", ""martial_status""]",882,1,-0.08072255807009121,0,0,
+black-fri,unfiltered,50,"[""gender"", ""age"", ""occupation"", ""city"", ""stay_years"", ""martial_status""]",8820,0,,0,0,
+black-fri,utility_cap2,100,"[""age""]",7,6,0.043118995019796935,0,0,
+black-fri,utility_cap6,100,"[""age"", ""occupation"", ""city"", ""martial_status""]",882,0,,0,0,
+black-fri,unfiltered,100,"[""gender"", ""age"", ""occupation"", ""city"", ""stay_years"", ""martial_status""]",8820,0,,0,0,
+amazon,utility_cap2,5,"[""his_level"", ""max_price_level""]",100,100,0.08780583753955462,104,17,0.16346153846153846
+amazon,utility_cap3,5,"[""his_level"", ""max_price_level""]",100,100,0.08780583753955462,104,17,0.16346153846153846
+amazon,unfiltered,5,"[""his_level"", ""mean_price_level"", ""max_price_level""]",1000,366,0.28243782552003516,104,104,1.0
+amazon,utility_cap2,20,"[""his_level"", ""max_price_level""]",100,99,0.08780583753955462,84,15,0.17857142857142858
+amazon,utility_cap3,20,"[""his_level"", ""max_price_level""]",100,99,0.08780583753955462,84,15,0.17857142857142858
+amazon,unfiltered,20,"[""his_level"", ""mean_price_level"", ""max_price_level""]",1000,325,0.16987519663635636,84,84,1.0
+amazon,utility_cap2,50,"[""his_level"", ""max_price_level""]",100,99,0.08780583753955462,67,12,0.1791044776119403
+amazon,utility_cap3,50,"[""his_level"", ""max_price_level""]",100,99,0.08780583753955462,67,12,0.1791044776119403
+amazon,unfiltered,50,"[""his_level"", ""mean_price_level"", ""max_price_level""]",1000,279,0.12132497785699459,67,67,1.0
+amazon,utility_cap2,100,"[""his_level"", ""max_price_level""]",100,97,0.05051268268321418,50,10,0.2
+amazon,utility_cap3,100,"[""his_level"", ""max_price_level""]",100,97,0.05051268268321418,50,10,0.2
+amazon,unfiltered,100,"[""his_level"", ""mean_price_level"", ""max_price_level""]",1000,229,0.07821512506164441,50,50,1.0

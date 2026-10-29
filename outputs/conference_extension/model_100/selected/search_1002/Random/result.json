@@ -1,0 +1,25 @@
+{
+  "model_seed": 100,
+  "grammar": "selected",
+  "algorithm": "Random",
+  "search_seed": 1002,
+  "maximum_score": 0.014842484113192254,
+  "best_group": [
+    5
+  ],
+  "best_found_query": 3,
+  "requests": 4000,
+  "unique_groups": 7,
+  "invalid_requests": 0,
+  "threshold_groups": 0,
+  "search_seconds": 0.18234239995945245,
+  "objective_sha256": "eded200ce0862de3c28d445ef092bbb6ff303d7c186af0aed93a2d4cba0bb112",
+  "exact_optimum": 0.014842484113192254,
+  "regret": 0.0,
+  "optimum_found": true,
+  "valid_cells": 7,
+  "total_cells": 7,
+  "reference_high": 0,
+  "threshold_recall": null,
+  "first_optimum_query": 3
+}

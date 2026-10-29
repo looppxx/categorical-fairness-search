@@ -1,0 +1,26 @@
+{
+  "model_seed": 2026,
+  "grammar": "selected",
+  "algorithm": "GA",
+  "search_seed": 1006,
+  "maximum_score": 0.03669130847155651,
+  "best_group": [
+    0,
+    0
+  ],
+  "best_found_query": 13,
+  "requests": 4000,
+  "unique_groups": 14,
+  "invalid_requests": 0,
+  "threshold_groups": 1,
+  "search_seconds": 0.6534905000589788,
+  "objective_sha256": "fca90ea51d156548ea6a0b2a3161bb187833615d033e3bff12c9ac59c77104a3",
+  "exact_optimum": 0.03669130847155651,
+  "regret": 0.0,
+  "optimum_found": true,
+  "valid_cells": 14,
+  "total_cells": 14,
+  "reference_high": 1,
+  "threshold_recall": 1.0,
+  "first_optimum_query": 13
+}

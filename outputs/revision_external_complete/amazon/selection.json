@@ -1,0 +1,70 @@
+{
+  "target": "development mean NDCG@10 minus user NDCG@10 >= .02",
+  "target_positive": 27522,
+  "development_users": 52763,
+  "arms": {
+    "utility_cap2": {
+      "selected_features": [
+        "his_level",
+        "max_price_level"
+      ],
+      "filter_union": [
+        "his_level",
+        "mean_price_level",
+        "max_price_level"
+      ],
+      "wrapper_history": [
+        {
+          "features": [
+            0,
+            1,
+            2
+          ],
+          "score": 0.5038172880577378
+        },
+        {
+          "features": [
+            0,
+            2
+          ],
+          "score": 0.5067121795152717
+        }
+      ]
+    },
+    "utility_cap3": {
+      "selected_features": [
+        "his_level",
+        "max_price_level"
+      ],
+      "filter_union": [
+        "his_level",
+        "mean_price_level",
+        "max_price_level"
+      ],
+      "wrapper_history": [
+        {
+          "features": [
+            0,
+            1,
+            2
+          ],
+          "score": 0.5038172880577378
+        },
+        {
+          "features": [
+            0,
+            2
+          ],
+          "score": 0.5067121795152717
+        }
+      ]
+    },
+    "unfiltered": {
+      "selected_features": [
+        "his_level",
+        "mean_price_level",
+        "max_price_level"
+      ]
+    }
+  }
+}

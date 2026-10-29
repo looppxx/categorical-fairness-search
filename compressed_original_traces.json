@@ -1,0 +1,87 @@
+[
+  {
+    "original_path": "outputs/search_comparison_native/trace.jsonl",
+    "original_sha256": "1f9961641790fdba34cff228f7138bf03a0b98945a9ffa1e80cfa45ca3e84efc",
+    "compressed_path": "outputs/search_comparison_native/trace.jsonl.gz"
+  },
+  {
+    "original_path": "outputs/final_benchmark/trace.jsonl",
+    "original_sha256": "e619305e499900499f39486898860e76122607bd90cdb0753dd6c6093861d150",
+    "compressed_path": "outputs/final_benchmark/trace.jsonl.gz"
+  },
+  {
+    "original_path": "outputs/final_benchmark/seed_100/training_progress.jsonl",
+    "original_sha256": "bef6fc74d88b86dc24c97ea0028b823d6440476ce9fb20600a58dc4378516753",
+    "compressed_path": "outputs/final_benchmark/seed_100/training_progress.jsonl.gz"
+  },
+  {
+    "original_path": "outputs/final_benchmark/seed_2026/training_progress.jsonl",
+    "original_sha256": "02b507cda0af49614aa1b46499e68dcbff893c1d88a36858f0fc71b8bbcdada7",
+    "compressed_path": "outputs/final_benchmark/seed_2026/training_progress.jsonl.gz"
+  },
+  {
+    "original_path": "outputs/final_benchmark/seed_42/training_progress.jsonl",
+    "original_sha256": "4af4c45ae8a0ba81996a3e4fbfe54b8f15757744b49ff2c127498a177a993634",
+    "compressed_path": "outputs/final_benchmark/seed_42/training_progress.jsonl.gz"
+  },
+  {
+    "original_path": "outputs/final_benchmark/seed_42/search/ACO/trace.jsonl",
+    "original_sha256": "55ffd815df221f423270316457809108b53f34de6710e60f23b713eacd1e19bb",
+    "compressed_path": "outputs/final_benchmark/seed_42/search/ACO/trace.jsonl.gz"
+  },
+  {
+    "original_path": "outputs/final_benchmark/seed_42/search/DE/trace.jsonl",
+    "original_sha256": "b50d6cde575965d578b1c5e10b4866b34533bb75d20fc1b3df9848a445d9707e",
+    "compressed_path": "outputs/final_benchmark/seed_42/search/DE/trace.jsonl.gz"
+  },
+  {
+    "original_path": "outputs/final_benchmark/seed_42/search/DPSO_(native)/trace.jsonl",
+    "original_sha256": "bc623d77e046e377f9ebfab6c7910772731499d354aa53e2910874482b5a5042",
+    "compressed_path": "outputs/final_benchmark/seed_42/search/DPSO_(native)/trace.jsonl.gz"
+  },
+  {
+    "original_path": "outputs/final_benchmark/seed_42/search/GA/trace.jsonl",
+    "original_sha256": "a6227f2ab00e07abfeb40aa91cea115e911556f8a70526779a8600b43ff7fba0",
+    "compressed_path": "outputs/final_benchmark/seed_42/search/GA/trace.jsonl.gz"
+  },
+  {
+    "original_path": "outputs/final_benchmark/seed_2026/search/ACO/trace.jsonl",
+    "original_sha256": "5e20b5b157acf1deaa680bddec1633c511c205ae5b0c9e96f83c23139bfb5bce",
+    "compressed_path": "outputs/final_benchmark/seed_2026/search/ACO/trace.jsonl.gz"
+  },
+  {
+    "original_path": "outputs/final_benchmark/seed_2026/search/DE/trace.jsonl",
+    "original_sha256": "ee2195aa3201e5eb8a7cd2e90c0dcc3cea66c73d328f69ccdf0293ec7432d4de",
+    "compressed_path": "outputs/final_benchmark/seed_2026/search/DE/trace.jsonl.gz"
+  },
+  {
+    "original_path": "outputs/final_benchmark/seed_2026/search/DPSO_(native)/trace.jsonl",
+    "original_sha256": "0b67b1152f990050a0f3f3a4ea8cb5a2e59bde242c305070d04f7b6e05fcaaad",
+    "compressed_path": "outputs/final_benchmark/seed_2026/search/DPSO_(native)/trace.jsonl.gz"
+  },
+  {
+    "original_path": "outputs/final_benchmark/seed_2026/search/GA/trace.jsonl",
+    "original_sha256": "65eefdd3530ba5225a059d726a26613f97ded3d5d017a2725f73e1b5fe5e60d6",
+    "compressed_path": "outputs/final_benchmark/seed_2026/search/GA/trace.jsonl.gz"
+  },
+  {
+    "original_path": "outputs/final_benchmark/seed_100/search/ACO/trace.jsonl",
+    "original_sha256": "9a709ca8316e0be7bd1b021ccc128edf9e5e49ff3409f8512686e6139aedd780",
+    "compressed_path": "outputs/final_benchmark/seed_100/search/ACO/trace.jsonl.gz"
+  },
+  {
+    "original_path": "outputs/final_benchmark/seed_100/search/DE/trace.jsonl",
+    "original_sha256": "2c2b94157371887ed736b11dcb9b9e53a8b500c115472f76e407d4241c70b11d",
+    "compressed_path": "outputs/final_benchmark/seed_100/search/DE/trace.jsonl.gz"
+  },
+  {
+    "original_path": "outputs/final_benchmark/seed_100/search/DPSO_(native)/trace.jsonl",
+    "original_sha256": "85cadd9c050706a34021a5061ac0137c48811f8e125ea4dfbc53f5a7369e9f2e",
+    "compressed_path": "outputs/final_benchmark/seed_100/search/DPSO_(native)/trace.jsonl.gz"
+  },
+  {
+    "original_path": "outputs/final_benchmark/seed_100/search/GA/trace.jsonl",
+    "original_sha256": "d5bafbdfcfb7db0e19a5a1d864c61ac086afefd8650b7e108dd7b1a9e442a879",
+    "compressed_path": "outputs/final_benchmark/seed_100/search/GA/trace.jsonl.gz"
+  }
+]

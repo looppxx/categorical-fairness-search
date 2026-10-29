@@ -1,0 +1,27 @@
+{
+  "dataset": "amazon",
+  "grammar": "unfiltered",
+  "algorithm": "Random",
+  "search_seed": 1001,
+  "maximum_score": 0.16987519663635636,
+  "best_group": [
+    7,
+    4,
+    3
+  ],
+  "best_found_query": 459,
+  "requests": 4000,
+  "unique_groups": 977,
+  "invalid_requests": 2736,
+  "threshold_groups": 79,
+  "search_seconds": 0.47315789999993285,
+  "objective_sha256": "7b3fd87cdef988cf695c25b1725f2a7fbc41ba970af01331105cf16ac5818a06",
+  "exact_optimum": 0.16987519663635636,
+  "regret": 0.0,
+  "optimum_found": true,
+  "valid_cells": 325,
+  "total_cells": 1000,
+  "reference_high": 84,
+  "threshold_recall": 0.9404761904761905,
+  "first_optimum_query": 459
+}

@@ -1,0 +1,7 @@
+{
+  "runs": 975,
+  "requests": 3900000,
+  "semantic_checks": 1244550,
+  "status": "passed",
+  "scope": "all request/cache/archive records; every empirical score; every 61st synthetic score"
+}

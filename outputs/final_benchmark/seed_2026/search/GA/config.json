@@ -1,0 +1,6 @@
+{
+  "population": 20,
+  "threshold": 0.02,
+  "live_inference": false,
+  "objective_sha256": "8031bd00b11f68ad91218c28ff55dcb00013185561edfdedf817ab17f0c5ac4f"
+}

@@ -1,0 +1,22 @@
+\begin{table}[t]
+\centering
+\caption{Checkpoint controls: 30 searches per method and grammar (ten search seeds on each of three fixed models), 4,000 requests each. Hit is exact-optimum attainment (percent); recall is the mean fraction of supported cells above 0.02 recovered, excluding instances with no such cells. Query is median first optimum request among successes. Full uses all three demographics.}
+\label{tab:extended-neumf}
+\small
+\begin{tabular}{llrrrr}
+\toprule
+Space & Method & Hit\% & Regret & Rec.\% & Query \\
+\midrule
+Sel. & DPSO & 100 & 0.00000 & 100.0 & 11.0 \\
+Sel. & GA & 100 & 0.00000 & 100.0 & 4.0 \\
+Sel. & ACO & 100 & 0.00000 & 100.0 & 4.0 \\
+Sel. & DE & 100 & 0.00000 & 100.0 & 4.0 \\
+Sel. & Random & 100 & 0.00000 & 100.0 & 4.0 \\
+Full & DPSO & 93 & 0.00077 & 64.6 & 32.0 \\
+Full & GA & 100 & 0.00000 & 99.6 & 44.0 \\
+Full & ACO & 100 & 0.00000 & 90.3 & 31.0 \\
+Full & DE & 100 & 0.00000 & 89.0 & 51.5 \\
+Full & Random & 100 & 0.00000 & 100.0 & 36.0 \\
+\bottomrule
+\end{tabular}
+\end{table}

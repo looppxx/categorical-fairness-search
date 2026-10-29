@@ -1,0 +1,17 @@
+{
+  "note": "Path reference only; pass corresponding paths using documented CLI arguments. Do not edit immutable archived protocols to pretend they were rerun.",
+  "fairrec_source": "external/FairRec/fairrec.py",
+  "fairrec_root": "external/FairRec",
+  "movielens_raw": "data/ml-1m",
+  "external_test_tables": {
+    "last-fm": "external/FairRec/data/last-fm/processed_data/test_data.csv",
+    "amazon": "external/FairRec/data/amazon/processed_data/test_data.csv"
+  },
+  "external_checkpoint_prefixes": {
+    "last-fm": "external/FairRec/model/deepfm-last-fm/deepfm-last-fm.ckpt",
+    "amazon": "external/FairRec/model/deepfm-amazon/deepfm-amazon.ckpt"
+  },
+  "new_export_directory": "outputs/reproduced_exports",
+  "new_external_output": "outputs/reproduced_external",
+  "new_added_method_output": "outputs/reproduced_revision"
+}

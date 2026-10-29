@@ -1,0 +1,27 @@
+{
+  "dataset": "amazon",
+  "grammar": "unfiltered",
+  "algorithm": "DPSO (native)",
+  "search_seed": 1010,
+  "maximum_score": 0.08780583753955462,
+  "best_group": [
+    6,
+    4,
+    5
+  ],
+  "best_found_query": 152,
+  "requests": 4000,
+  "unique_groups": 216,
+  "invalid_requests": 1315,
+  "threshold_groups": 14,
+  "search_seconds": 0.18424640000012005,
+  "objective_sha256": "7b3fd87cdef988cf695c25b1725f2a7fbc41ba970af01331105cf16ac5818a06",
+  "exact_optimum": 0.16987519663635636,
+  "regret": 0.08206935909680174,
+  "optimum_found": false,
+  "valid_cells": 325,
+  "total_cells": 1000,
+  "reference_high": 84,
+  "threshold_recall": 0.16666666666666666,
+  "first_optimum_query": null
+}
