@@ -1,14 +1,14 @@
-IEEE manuscript source
-=====================
+ICSCA 2027 manuscript source
+===========================
 
 Main document: CATEGORICAL_FAIRNESS_TESTING.tex
 Current PDF: CATEGORICAL_FAIRNESS_TESTING.pdf
-Current length: 11 pages including references, using standard IEEEtran conference
-10-point formatting. A specific venue's page and anonymity rules still apply.
+Current length: 11 pages including references, using ACM sigconf formatting
+from the LaTeX template linked by ICSCA 2027. See ICSCA_SUBMISSION_NOTES.txt.
 The former PUBLICATION_DRAFT.tex/PDF names are retired; open the files above.
 Bibliography: references.bib
-Layout class: IEEEtran.cls (copied from the supplied IEEE conference template)
-Included content: sections/*.tex
+Layout class: acmart (installed with the TeX distribution)
+Manuscript body: maintained directly in the main document
 Included figures, tables, and provenance: assets/*
 
 Build from this directory:
@@ -17,9 +17,10 @@ Build from this directory:
   pdflatex -interaction=nonstopmode -halt-on-error CATEGORICAL_FAIRNESS_TESTING.tex
   pdflatex -interaction=nonstopmode -halt-on-error CATEGORICAL_FAIRNESS_TESTING.tex
 
-The source archive includes all manuscript dependencies. It does not require
-the original experiment folders to compile. A TeX installation with IEEEtran,
-amsmath, graphicx, booktabs, balance, cite, and hyperref is required.
+The source archive includes manuscript assets and the bibliography. It does not require
+the original experiment folders to compile. A TeX installation with acmart,
+ACM-Reference-Format.bst, Libertine fonts, amsmath, graphicx, booktabs,
+textcomp, and the dependencies loaded by acmart is required.
 
 To regenerate assets from the project workspace, run from the project root:
   .venv/Scripts/python.exe draft/build_publication_assets.py
@@ -99,9 +100,11 @@ and assets/additional_reference_metadata.json. The Li et al. entry also includes
 the page range supplied by the author. The key zoralioglu2024dynamic retains
 the requested identifier but records the verified publication year 2026.
 
-Before submission, the authors must select the venue and check its page limit,
-review anonymity policy, artifact requirements, and submission declarations.
-No venue, funding, ethics approval, or acceptance is assumed.
+The selected venue is ICSCA 2027. The manuscript retains the four-author list
+and includes the supplied funding acknowledgement. The public submission page does not specify an
+anonymity policy or separate artifact requirements. Any declarations in the
+authenticated portal still need to be reviewed. No ethics approval or acceptance
+is assumed. The manuscript has not been submitted; portal login is required.
 Study repository: https://github.com/looppxx/categorical-fairness-search
 Recorded evidence is in outputs/search_comparison_native and outputs/final_benchmark
 in the project workspace. The latter includes configs, training summaries,

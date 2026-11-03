@@ -1,0 +1,63 @@
+ICSCA 2027 submission preparation
+================================
+Website checked: 3 November 2026 (Malaysia)
+Conference: 2027 16th International Conference on Software and Computer Applications
+Location and dates: Putrajaya, Malaysia; 22-24 January 2027
+Submission deadline: 25 November 2026
+Notification: 21 December 2026
+Registration deadline: 5 January 2027
+
+Official instructions: https://www.icsca.org/author.html
+Official LaTeX download: https://www.icsca.org/LaTeX-Templates.zip
+Official Word download: https://www.icsca.org/kits/acm_template.docx
+Submission portal: https://www.zmeeting.org/submission/icsca2027
+
+Submission requirements
+-----------------------
+Full manuscripts are submitted as PDF through the portal.
+Allowed length: 4-12 double-column pages, or 8-20 single-column pages,
+including all figures. This manuscript is 11 double-column pages including
+references, within the stated range.
+The linked LaTeX sample uses acmart with the sigconf option and
+ACM-Reference-Format bibliography style, rather than IEEEtran.
+English is required. Submissions must be original, previously unpublished,
+and not under consideration elsewhere. At least one author must register
+and attend to present an accepted paper.
+The public page does not explicitly specify anonymous review. The current
+PDF identifies all four authors and includes the requested funding paragraph.
+Any instructions or declarations shown after login must still be checked.
+
+Registration and length
+-----------------------
+The site lists regular author registration at USD 575 and first-author student
+registration at USD 525, subject to the stated student proof requirements.
+One registration covers five double-column pages, including figures, tables,
+and references. The current paper exceeds that allowance by six pages.
+The public page does not state the extra-page rate; check with the organizers
+before registration. No registration or payment has been made.
+
+Manuscript changes
+------------------
+Four authors retained in their original order: Loo Pei Xin, Abdullateef
+Oluwagbemiga Balogun, Ahmad Sobri Hashim, and Hussaini Mamman.
+Funding paragraph added before references.
+ACM author metadata, abstract, keywords, bibliography, and acknowledgments
+environments replace the IEEE-specific layout. Minor prose adjustments avoid
+line overflow; experimental results and conclusions are preserved.
+Initial-submission nonacm mode omits unassigned publication rights, DOI, ISBN,
+and the ACM reference strip. Replace with organizer-supplied publication
+metadata after acceptance if required. No sample rights data are asserted.
+
+Files
+-----
+CATEGORICAL_FAIRNESS_TESTING.tex: updated manuscript source
+CATEGORICAL_FAIRNESS_TESTING.pdf: compiled PDF for review/submission
+PUBLICATION_SUBMISSION_SOURCE.zip: local source package and PDF (not tracked in Git)
+The original IEEE source/PDF and downloaded template are preserved locally
+under tmp/icsca/ and are not tracked in Git.
+
+Submission status
+-----------------
+NOT SUBMITTED. Submission requires authenticated access to the conference
+portal. No submission ID or receipt has been obtained.
+These notes accompany the active CATEGORICAL_FAIRNESS_TESTING.tex manuscript.

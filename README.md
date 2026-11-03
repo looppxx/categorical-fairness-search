@@ -63,9 +63,12 @@ Raw datasets, saved model weights, and per-user utility tables are not included.
 
 - [Compiled manuscript](draft/CATEGORICAL_FAIRNESS_TESTING.pdf)
 - [LaTeX source](draft/CATEGORICAL_FAIRNESS_TESTING.tex)
+- [ICSCA 2027 submission notes](draft/ICSCA_SUBMISSION_NOTES.txt)
 - [Detailed reproduction guide](REPRODUCIBILITY.md)
 
-Build with an installed TeX distribution, from `draft/`:
+The manuscript uses the ACM `sigconf` template linked by ICSCA 2027 and includes four authors and the supplied funding acknowledgement. The compiled paper is 11 pages including references. Preparation for ICSCA does not indicate submission or acceptance; see the submission notes for its status and the venue's requirements.
+
+Build with an installed TeX distribution containing `acmart`, its Libertine fonts and dependencies, and `ACM-Reference-Format.bst`, from `draft/`:
 
 ```bash
 pdflatex -interaction=nonstopmode -halt-on-error CATEGORICAL_FAIRNESS_TESTING.tex
